@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr" class="w-full overflow-x-hidden">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com/"></script>
+    <script src="/assets/js/app.js"></script>
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <title data-translate-id="menu.contact">PROMED PLANET</title>
+</head>
+
+<body class="text-gray-800 pb-4 lg:pt-4">
+    <span id="header"></span>
+    <main class="overflow-x-hidden">
+        <span id="slider"></span>
+        <section class="flex flex-wrap gap-2 items-center mx-auto container p-4">
+            <a href="/index.html" data-translate-id="menu.home" class="block">ACCUEIL</a>
+            <span class="block border border-gray-900 w-2"></span>
+            <a href="/brands.html" data-translate-id="header.contact" class="block text-prime">CONTACTEZ-NOUS</a>
+        </section>
+        <section class="w-full flex flex-col gap-10 lg:gap-20 items-center mt-6 lg:mt-10 mb-16 lg:mb-24">
+            <div class="w-full flex flex-col gap-2 items-center">
+                <h1 data-translate-id="header.contact" class="text-3xl lg:text-6xl text-center container mx-auto px-4">
+                    CONTACTEZ-NOUS
+                </h1>
+                <span class="w-16 lg:w-24 h-1 bg-grade rounded-full"></span>
+            </div>
+            <form class="flex flex-col gap-4 container mx-auto px-4 items-end" method="post" action="/mail.php">
+                <div class="w-full flex flex-col md:flex-row gap-4">
+                    <div class="flex flex-1 flex-col">
+                        <label data-translate-id="form.firstname" for="first-name" class="text-gray-900 font-black text-md">Prenom</label>
+                        <div class="w-full h-12 flex rounded-md bg-gray-100 overflow-hidden">
+                            <input data-translate-id="form.firstname" type="text" id="first-name" name="first_name" class="text-gray-900 p-4 text-lg flex-1 h-full bg-transparent rounded-md focus:outline focus:outline-2 outline-green-500" placeholder="Prenom" required />
+                        </div>
+                    </div>
+                    <div class="flex flex-1 flex-col">
+                        <label data-translate-id="form.lastname" for="last-name" class="text-gray-900 font-black text-md">Nom</label>
+                        <div class="w-full h-12 flex rounded-md bg-gray-100 overflow-hidden">
+                            <input data-translate-id="form.lastname" type="text" id="last-name" name="last_name" class="text-gray-900 p-4 text-lg flex-1 h-full bg-transparent rounded-md focus:outline focus:outline-2 outline-green-500" placeholder="Nom" required />
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full flex flex-col md:flex-row gap-4">
+                    <div class="flex flex-1 flex-col">
+                        <label data-translate-id="form.email" for="email" class="text-gray-900 font-black text-md">Email</label>
+                        <div class="w-full h-12 flex rounded-md bg-gray-100 overflow-hidden">
+                            <input data-translate-id="form.email" type="email" id="email" name="email" class="text-gray-900 p-4 text-lg flex-1 h-full bg-transparent rounded-md focus:outline focus:outline-2 outline-green-500" placeholder="Email" required />
+                        </div>
+                    </div>
+                    <div class="flex flex-1 flex-col">
+                        <label data-translate-id="form.phone" for="phone" class="text-gray-900 font-black text-md">Telephone</label>
+                        <div class="w-full h-12 flex rounded-md bg-gray-100 overflow-hidden">
+                            <input data-translate-id="form.phone" type="tel" id="phone" name="phone" class="text-gray-900 p-4 text-lg flex-1 h-full bg-transparent rounded-md focus:outline focus:outline-2 outline-green-500" placeholder="Telephone" required />
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full flex flex-col">
+                    <label data-translate-id="form.message" for="message" class="text-gray-900 font-black text-md">Message</label>
+                    <div class="w-full h-32 flex rounded-md bg-gray-100 overflow-hidden">
+                        <textarea data-translate-id="form.message" type="message" id="message" name="message" class="text-gray-900 p-4 text-lg flex-1 h-full bg-transparent rounded-md focus:outline focus:outline-2 outline-green-500" placeholder="Message" required></textarea>
+                    </div>
+                </div>
+                <button name="send" class="w-full lg:w-64 h-12 flex items-center justify-center gap-2 p-4 rounded-md bg-prime focus:outline-none focus:bg-green-300 hover:bg-green-300">
+						<span type="submit" data-translate-id="form.btn" class="text-white font-black text-lg">ENVOYER</span>
+					</button>
+            </form>
+        </section>
+    </main>
+    <span id="footer"></span>
+    <script defer>
+        Starter.add(() => {
+            Element.Header(5);
+            Element.Slider(true);
+            Element.Footer(true);
+        }).init();
+    </script>
+    <script src="/assets/js/translate.js" defer></script>
+    <div id="overlay" class="fixed inset-0 bg-white" style="z-index: 99999;"></div>
+</body>
+
+</html>
