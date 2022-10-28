@@ -33,7 +33,10 @@
     <span id="footer"></span>
     <script defer>
         Starter.add(
-            () => populate.Brand(BRANDS),
+            async() => {
+                await getProd();
+                populate.Brand(BRANDS);
+            },
             () => {
                 Element.Header(3);
                 Element.Slider(true);

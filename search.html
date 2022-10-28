@@ -45,7 +45,8 @@
     <span id="footer"></span>
     <script defer>
         Starter.add(
-            () => {
+            async() => {
+                await getProd();
                 const q = decodeURI(location.search.slice(1));
                 populate.Product(
                     PRODUCTS.filter(
