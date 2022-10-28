@@ -165,13 +165,18 @@ const CARDS = {
                     <section data-js-mounted="true" id="slider" class="px-4 mx-auto container mt-4">
                         <div class="relative w-full rounded-2xl bg-gray-200 flex flex-col gap-10 lg:gap-16 h-56 lg:h-96 overflow-hidden shadow-md border border-gray-200">
                             <div class="slider w-full h-full relative overflow-hidden">
-                                ${
+                                ${images.length > 1 ?
                                     images.map(img => ` 
                                         <div class="slide w-full h-full p-2 active bg-white flex items-center justify-center">
                                             <img class="block max-w-full max-h-full" src="${img}" />
                                         </div>
                                         `
-                                    ).join("")
+                    ).join("")
+                    : ` 
+                        <div class="w-full h-full p-2 active bg-white flex items-center justify-center">
+                            <img class="block max-w-full max-h-full" src="${images[0]}" />
+                        </div>
+                    `
                                 }
                                 <div class="controls">
                                     <a href="javascript:void(0)" id="click-left"></a>
