@@ -452,16 +452,16 @@ const CARDS = {
                                             ></path>
                                         </svg>
                                     <div class="flex flex-col flex-1">
-                                        <a href="mailto:f.ferdous@promedplanet.com">
-                                                f.ferdous@promedplanet.com
+                                        <a href="mailto:f.chorouk@promedplanet.com">
+                                                f.chorouk@promedplanet.com
                                             </a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div onclick="show('#vid')" class="cursor-pointer w-full lg:w-32 flex flex-col gap-6 justify-center items-center">
-                            <img src="/assets/ship.png" class="block max-w-full" />
                             <img src="/assets/eco.webp" class="block max-w-full" />
+                            <img src="/assets/ship.png" class="block max-w-full" />
                         </div>
                     </section>
                     <section class="fixed w-max bottom-4 right-4 z-100">
