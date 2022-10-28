@@ -678,9 +678,11 @@ function slide() {
         activeSlide = prevSlide;
     }
 
-    setInterval(() => {
-        updateNextSlide();
-    }, 7000);
+    if (slides.length) {
+        setInterval(() => {
+            updateNextSlide();
+        }, 7000);
+    }
 }
 
 function navigate(selector, pos = "next") {
