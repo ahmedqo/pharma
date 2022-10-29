@@ -96,21 +96,23 @@ function upload($file)
 function uploads($file)
 {
     $images = [];
-    for ($i = 0; $i < count($file['name']); $i++) {
-        // Exit if is not a valid image file
-        $image_type = exif_imagetype($file["tmp_name"][$i]);
-        // Get file extension based on file type, to prepend a dot we pass true as the second parameter
-        $image_extension = image_type_to_extension($image_type, true);
-        // Create a unique image name
-        $image_name = bin2hex(random_bytes(16)) . $image_extension;
-        // Move the temp image file to the images directory
-        move_uploaded_file(
-            // Temp image location
-            $file["tmp_name"][$i],
-            // New image location
-            "../assets/products/" . $image_name
-        );
-        array_push($images, "/assets/products/" . $image_name);
+    if (!empty(array_filter($file['name']))) {
+        for ($i = 0; $i < count($file['name']); $i++) {
+            // Exit if is not a valid image file
+            $image_type = exif_imagetype($file["tmp_name"][$i]);
+            // Get file extension based on file type, to prepend a dot we pass true as the second parameter
+            $image_extension = image_type_to_extension($image_type, true);
+            // Create a unique image name
+            $image_name = bin2hex(random_bytes(16)) . $image_extension;
+            // Move the temp image file to the images directory
+            move_uploaded_file(
+                // Temp image location
+                $file["tmp_name"][$i],
+                // New image location
+                "../assets/products/" . $image_name
+            );
+            array_push($images, "/assets/products/" . $image_name);
+        }
     }
     return $images;
 }
@@ -121,7 +123,9 @@ if (isset($_POST['send'])) {
     translate($id, $fr, $en, $it, $ar);
     product($id, $image, $products);
     $myfile = fopen("../products/" . clean($_POST['title_fr']) . ".html", "w+") or die("Unable to open file!");
-    $IMG = '';
+    $IMG = '<button onclick="preview(this, `#preview`)" class="w-24 h-24 border border-gray-200 shadow-sm rounded-lg bg-white p-2 flex items-center justify-center cursor-pointer">
+        <img src="' . $image . '" class="block max-w-full max-h-full pointer-events-none" />
+    </button>';
     foreach ($images as $img) {
         $IMG .= '<button onclick="preview(this, `#preview`)" class="w-24 h-24 border border-gray-200 shadow-sm rounded-lg bg-white p-2 flex items-center justify-center cursor-pointer">
                 <img src="' . $img . '" class="block max-w-full max-h-full pointer-events-none" />
@@ -162,7 +166,7 @@ if (isset($_POST['send'])) {
             <span class="block border border-gray-900 w-2"></span>
             <a href="/products.html" data-translate-id="header.category" class="block">NOS GAMMES</a>
             <span class="block border border-gray-900 w-2"></span>
-            <a href="/categories/' . clean($_POST['category']) . '.html" data-translate-id="' . array_search($_POST['category'], $categories) . '" class="block">' . $_POST["category"] . '</a>
+            <a href="/categories/' . strtolower(clean($_POST['category'])) . '.html" data-translate-id="' . array_search($_POST['category'], $categories) . '" class="block">' . $_POST["category"] . '</a>
             <span class="block border border-gray-900 w-2"></span>
             <a href="/products/' . clean($_POST['title_fr']) . '.html" class="block text-prime" data-translate-id="product.pro-' . $id . '.title">' . $_POST["title_fr"] . '</a>
         </section>
@@ -225,6 +229,7 @@ if (isset($_POST['send'])) {
     ';
     fwrite($myfile, $code);
     fclose($myfile);
+    header("location: " . "/products/" . clean($_POST['title_fr']) . ".html");
 }
 
 ?>
