@@ -361,19 +361,19 @@ if (isset($_POST['send'])) {
             <div class="w-full flex flex-col">
                 <label for="description_en" class="text-gray-900 font-black text-md">Anglais</label>
                 <div class="w-full flex rounded-md bg-gray-100 overflow-hidden flex-col">
-                    <textarea id="description_en" name="description_en" class="text-gray-900 p-4 text-lg flex-1 h-full bg-transparent rounded-md focus:outline focus:outline-2 outline-green-500" placeholder="Francais"></textarea>
+                    <textarea id="description_en" name="description_en" class="text-gray-900 p-4 text-lg flex-1 h-full bg-transparent rounded-md focus:outline focus:outline-2 outline-green-500" placeholder="Anglais"></textarea>
                 </div>
             </div>
             <div class="w-full flex flex-col">
                 <label for="description_it" class="text-gray-900 font-black text-md">Italian</label>
                 <div class="w-full flex rounded-md bg-gray-100 overflow-hidden flex-col">
-                    <textarea id="description_it" name="description_it" class="text-gray-900 p-4 text-lg flex-1 h-full bg-transparent rounded-md focus:outline focus:outline-2 outline-green-500" placeholder="Francais"></textarea>
+                    <textarea id="description_it" name="description_it" class="text-gray-900 p-4 text-lg flex-1 h-full bg-transparent rounded-md focus:outline focus:outline-2 outline-green-500" placeholder="Italian"></textarea>
                 </div>
             </div>
             <div class="w-full flex flex-col">
                 <label for="description_ar" class="text-gray-900 font-black text-md">Arabe</label>
                 <div class="w-full flex rounded-md bg-gray-100 overflow-hidden flex-col">
-                    <textarea id="description_ar" name="description_ar" class="text-gray-900 p-4 text-lg flex-1 h-full bg-transparent rounded-md focus:outline focus:outline-2 outline-green-500" placeholder="Francais"></textarea>
+                    <textarea id="description_ar" name="description_ar" class="text-gray-900 p-4 text-lg flex-1 h-full bg-transparent rounded-md focus:outline focus:outline-2 outline-green-500" placeholder="Arabe"></textarea>
                 </div>
             </div>
         </div>
