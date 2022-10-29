@@ -242,6 +242,7 @@ if (isset($_POST['send'])) {
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com/"></script>
+    <script src="https://cdn.tiny.cloud/1/5q3f1hswxbi1wr1hsf6r4che0wgz79s909nh2cl0vwv81983/tinymce/6/tinymce.min.js" referrerpolicy="origin"></script>
     <title>PROMED PLANET</title>
 </head>
 
@@ -291,29 +292,29 @@ if (isset($_POST['send'])) {
             <h1 class="font-black text-2xl">Titre</h1>
             <div class="w-full flex flex-col md:flex-row gap-4">
                 <div class="flex flex-1 flex-col">
-                    <label for="title.fr" class="text-gray-900 font-black text-md">Francais</label>
+                    <label for="title_fr" class="text-gray-900 font-black text-md">Francais</label>
                     <div class="w-full h-12 flex rounded-md bg-gray-100 overflow-hidden">
-                        <input type="text" id="title.fr" name="title_fr" class="text-gray-900 p-4 text-lg flex-1 h-full bg-transparent rounded-md focus:outline focus:outline-2 outline-green-500" placeholder="Francais" required />
+                        <input type="text" id="title_fr" name="title_fr" class="text-gray-900 p-4 text-lg flex-1 h-full bg-transparent rounded-md focus:outline focus:outline-2 outline-green-500" placeholder="Francais" required />
                     </div>
                 </div>
                 <div class="flex flex-1 flex-col">
-                    <label for="title.en" class="text-gray-900 font-black text-md">Anglais</label>
+                    <label for="title_en" class="text-gray-900 font-black text-md">Anglais</label>
                     <div class="w-full h-12 flex rounded-md bg-gray-100 overflow-hidden">
-                        <input type="text" id="title.en" name="title_en" class="text-gray-900 p-4 text-lg flex-1 h-full bg-transparent rounded-md focus:outline focus:outline-2 outline-green-500" placeholder="Anglais" required />
+                        <input type="text" id="title_en" name="title_en" class="text-gray-900 p-4 text-lg flex-1 h-full bg-transparent rounded-md focus:outline focus:outline-2 outline-green-500" placeholder="Anglais" required />
                     </div>
                 </div>
             </div>
             <div class="w-full flex flex-col md:flex-row gap-4">
                 <div class="flex flex-1 flex-col">
-                    <label for="title.it" class="text-gray-900 font-black text-md">Italian</label>
+                    <label for="title_it" class="text-gray-900 font-black text-md">Italian</label>
                     <div class="w-full h-12 flex rounded-md bg-gray-100 overflow-hidden">
-                        <input type="text" id="title.it" name="title_it" class="text-gray-900 p-4 text-lg flex-1 h-full bg-transparent rounded-md focus:outline focus:outline-2 outline-green-500" placeholder="Italian" required />
+                        <input type="text" id="title_it" name="title_it" class="text-gray-900 p-4 text-lg flex-1 h-full bg-transparent rounded-md focus:outline focus:outline-2 outline-green-500" placeholder="Italian" required />
                     </div>
                 </div>
                 <div class="flex flex-1 flex-col">
-                    <label for="title.ar" class="text-gray-900 font-black text-md">Arabe</label>
+                    <label for="title_ar" class="text-gray-900 font-black text-md">Arabe</label>
                     <div class="w-full h-12 flex rounded-md bg-gray-100 overflow-hidden">
-                        <input type="text" id="title.ar" name="title_ar" class="text-gray-900 p-4 text-lg flex-1 h-full bg-transparent rounded-md focus:outline focus:outline-2 outline-green-500" placeholder="Arabe" required />
+                        <input type="text" id="title_ar" name="title_ar" class="text-gray-900 p-4 text-lg flex-1 h-full bg-transparent rounded-md focus:outline focus:outline-2 outline-green-500" placeholder="Arabe" required />
                     </div>
                 </div>
             </div>
@@ -322,29 +323,29 @@ if (isset($_POST['send'])) {
             <h1 class="font-black text-2xl">Mini Description</h1>
             <div class="w-full flex flex-col md:flex-row gap-4">
                 <div class="flex flex-1 flex-col">
-                    <label for="desc.fr" class="text-gray-900 font-black text-md">Francais</label>
+                    <label for="desc_fr" class="text-gray-900 font-black text-md">Francais</label>
                     <div class="w-full h-12 flex rounded-md bg-gray-100 overflow-hidden">
-                        <input type="text" id="desc.fr" name="desc_fr" class="text-gray-900 p-4 text-lg flex-1 h-full bg-transparent rounded-md focus:outline focus:outline-2 outline-green-500" placeholder="Francais" />
+                        <input type="text" id="desc_fr" name="desc_fr" class="text-gray-900 p-4 text-lg flex-1 h-full bg-transparent rounded-md focus:outline focus:outline-2 outline-green-500" placeholder="Francais" />
                     </div>
                 </div>
                 <div class="flex flex-1 flex-col">
-                    <label for="desc.en" class="text-gray-900 font-black text-md">Anglais</label>
+                    <label for="desc_en" class="text-gray-900 font-black text-md">Anglais</label>
                     <div class="w-full h-12 flex rounded-md bg-gray-100 overflow-hidden">
-                        <input type="text" id="desc.en" name="desc_en" class="text-gray-900 p-4 text-lg flex-1 h-full bg-transparent rounded-md focus:outline focus:outline-2 outline-green-500" placeholder="Anglais" />
+                        <input type="text" id="desc_en" name="desc_en" class="text-gray-900 p-4 text-lg flex-1 h-full bg-transparent rounded-md focus:outline focus:outline-2 outline-green-500" placeholder="Anglais" />
                     </div>
                 </div>
             </div>
             <div class="w-full flex flex-col md:flex-row gap-4">
                 <div class="flex flex-1 flex-col">
-                    <label for="desc.it" class="text-gray-900 font-black text-md">Italian</label>
+                    <label for="desc_it" class="text-gray-900 font-black text-md">Italian</label>
                     <div class="w-full h-12 flex rounded-md bg-gray-100 overflow-hidden">
-                        <input type="text" id="desc.it" name="desc_it" class="text-gray-900 p-4 text-lg flex-1 h-full bg-transparent rounded-md focus:outline focus:outline-2 outline-green-500" placeholder="Italian" />
+                        <input type="text" id="desc_it" name="desc_it" class="text-gray-900 p-4 text-lg flex-1 h-full bg-transparent rounded-md focus:outline focus:outline-2 outline-green-500" placeholder="Italian" />
                     </div>
                 </div>
                 <div class="flex flex-1 flex-col">
-                    <label for="desc.ar" class="text-gray-900 font-black text-md">Arabe</label>
+                    <label for="desc_ar" class="text-gray-900 font-black text-md">Arabe</label>
                     <div class="w-full h-12 flex rounded-md bg-gray-100 overflow-hidden">
-                        <input type="text" id="desc.ar" name="desc_ar" class="text-gray-900 p-4 text-lg flex-1 h-full bg-transparent rounded-md focus:outline focus:outline-2 outline-green-500" placeholder="Arabe" />
+                        <input type="text" id="desc_ar" name="desc_ar" class="text-gray-900 p-4 text-lg flex-1 h-full bg-transparent rounded-md focus:outline focus:outline-2 outline-green-500" placeholder="Arabe" />
                     </div>
                 </div>
             </div>
@@ -352,27 +353,27 @@ if (isset($_POST['send'])) {
         <div class="w-full">
             <h1 class="font-black text-2xl">Description</h1>
             <div class="w-full flex flex-col">
-                <label for="description.fr" class="text-gray-900 font-black text-md">Francais</label>
-                <div class="w-full h-32 flex rounded-md bg-gray-100 overflow-hidden">
-                    <textarea id="description.fr" name="description_fr" class="text-gray-900 p-4 text-lg flex-1 h-full bg-transparent rounded-md focus:outline focus:outline-2 outline-green-500" placeholder="Francais"></textarea>
+                <label for="description_fr" class="text-gray-900 font-black text-md">Francais</label>
+                <div class="w-full flex rounded-md bg-gray-100 overflow-hidden flex-col">
+                    <textarea id="description_fr" name="description_fr" class="text-gray-900 p-4 text-lg flex-1 h-full bg-transparent rounded-md focus:outline focus:outline-2 outline-green-500" placeholder="Francais"></textarea>
                 </div>
             </div>
             <div class="w-full flex flex-col">
-                <label for="description.en" class="text-gray-900 font-black text-md">Anglais</label>
-                <div class="w-full h-32 flex rounded-md bg-gray-100 overflow-hidden">
-                    <textarea id="description.en" name="description_en" class="text-gray-900 p-4 text-lg flex-1 h-full bg-transparent rounded-md focus:outline focus:outline-2 outline-green-500" placeholder="Francais"></textarea>
+                <label for="description_en" class="text-gray-900 font-black text-md">Anglais</label>
+                <div class="w-full flex rounded-md bg-gray-100 overflow-hidden flex-col">
+                    <textarea id="description_en" name="description_en" class="text-gray-900 p-4 text-lg flex-1 h-full bg-transparent rounded-md focus:outline focus:outline-2 outline-green-500" placeholder="Francais"></textarea>
                 </div>
             </div>
             <div class="w-full flex flex-col">
-                <label for="description.it" class="text-gray-900 font-black text-md">Italian</label>
-                <div class="w-full h-32 flex rounded-md bg-gray-100 overflow-hidden">
-                    <textarea id="description.it" name="description_it" class="text-gray-900 p-4 text-lg flex-1 h-full bg-transparent rounded-md focus:outline focus:outline-2 outline-green-500" placeholder="Francais"></textarea>
+                <label for="description_it" class="text-gray-900 font-black text-md">Italian</label>
+                <div class="w-full flex rounded-md bg-gray-100 overflow-hidden flex-col">
+                    <textarea id="description_it" name="description_it" class="text-gray-900 p-4 text-lg flex-1 h-full bg-transparent rounded-md focus:outline focus:outline-2 outline-green-500" placeholder="Francais"></textarea>
                 </div>
             </div>
             <div class="w-full flex flex-col">
-                <label for="description.ar" class="text-gray-900 font-black text-md">Arabe</label>
-                <div class="w-full h-32 flex rounded-md bg-gray-100 overflow-hidden">
-                    <textarea id="description.ar" name="description_ar" class="text-gray-900 p-4 text-lg flex-1 h-full bg-transparent rounded-md focus:outline focus:outline-2 outline-green-500" placeholder="Francais"></textarea>
+                <label for="description_ar" class="text-gray-900 font-black text-md">Arabe</label>
+                <div class="w-full flex rounded-md bg-gray-100 overflow-hidden flex-col">
+                    <textarea id="description_ar" name="description_ar" class="text-gray-900 p-4 text-lg flex-1 h-full bg-transparent rounded-md focus:outline focus:outline-2 outline-green-500" placeholder="Francais"></textarea>
                 </div>
             </div>
         </div>
@@ -380,6 +381,39 @@ if (isset($_POST['send'])) {
             <span class="text-white font-black text-lg">ENREGISTRER</span>
         </button>
     </form>
+    <script>
+        const config = {
+            plugins: 'anchor autolink charmap codesample emoticons image link lists media searchreplace table visualblocks wordcount checklist mediaembed casechange export formatpainter pageembed linkchecker a11ychecker tinymcespellchecker permanentpen powerpaste advtable advcode editimage tinycomments tableofcontents footnotes mergetags autocorrect',
+            toolbar: 'undo redo | blocks fontfamily fontsize | bold italic underline strikethrough | link image media table mergetags | addcomment showcomments | spellcheckdialog a11ycheck | align lineheight | checklist numlist bullist indent outdent | emoticons charmap | removeformat',
+            tinycomments_mode: 'embedded',
+            tinycomments_author: 'Author name',
+            mergetags_list: [{
+                    value: 'First.Name',
+                    title: 'First Name'
+                },
+                {
+                    value: 'Email',
+                    title: 'Email'
+                },
+            ]
+        }
+        tinymce.init({
+            selector: '#description_fr',
+            ...config
+        });
+        tinymce.init({
+            selector: '#description_en',
+            ...config
+        });
+        tinymce.init({
+            selector: '#description_it',
+            ...config
+        });
+        tinymce.init({
+            selector: '#description_ar',
+            ...config
+        });
+    </script>
 </body>
 
 </html>
