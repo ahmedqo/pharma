@@ -1,13 +1,6 @@
 {
-    "title": "Votre matériel médical et paramédical professionnel",
-    "menu": {
-        "home": "ACCUEIL",
-        "product": "NOS PRODUITS",
-        "brand": "MARQUES",
-        "news": "NOUVEAU",
-        "contact": "CONTACT",
-        "download": "TELECHARGER CATALOGUE"
-    },
+    "title": "Votre mat\u00e9riel m\u00e9dical et param\u00e9dical professionnel",
+    "menu": { "home": "ACCUEIL", "product": "NOS PRODUITS", "brand": "MARQUES", "news": "NOUVEAU", "contact": "CONTACT", "download": "TELECHARGER CATALOGUE" },
     "header": {
         "product": "NOUVEAU PRODUITS",
         "brand": "NOS MARQUES",
@@ -18,29 +11,22 @@
         "partner": "Nos Partenaires",
         "contact": "Contactez-nous"
     },
-    "form": {
-        "firstname": "Prenom",
-        "lastname": "Nom",
-        "email": "Email",
-        "phone": "Telephone",
-        "message": "Message",
-        "btn": "ENVOYER"
-    },
+    "form": { "firstname": "Prenom", "lastname": "Nom", "email": "Email", "phone": "Telephone", "message": "Message", "btn": "ENVOYER" },
     "extra": {
-        "file": "Télécharger la fiche produit",
+        "file": "T\u00e9l\u00e9charger la fiche produit",
         "search": "RECHERCHER",
         "more": "VOIR PLUS",
         "detail": "DETAIL",
         "brand": "Marque",
-        "desc": "Caractéristiques",
+        "desc": "Caract\u00e9ristiques",
         "english": "anglais",
-        "french": "français",
+        "french": "fran\u00e7ais",
         "italy": "italien",
         "arabic": "arabe"
     },
     "text": {
-        "section": "PROMED PLANET est un spécialiste de la vente de matériel médical aux professionnels de santé et aux particuliers. nous sélectionnons et distribuons des produits des plus grandes marques pour que vous puissiez exercer votre profession ou surveiller votre santé avec le meilleur matériel et aux meilleurs prix.",
-        "product": "Nos multi-gammes en réponse aux différents besoins de Santé pour une Meilleure Médecine."
+        "section": "PROMED PLANET est un sp\u00e9cialiste de la vente de mat\u00e9riel m\u00e9dical aux professionnels de sant\u00e9 et aux particuliers. nous s\u00e9lectionnons et distribuons des produits des plus grandes marques pour que vous puissiez exercer votre profession ou surveiller votre sant\u00e9 avec le meilleur mat\u00e9riel et aux meilleurs prix.",
+        "product": "Nos multi-gammes en r\u00e9ponse aux diff\u00e9rents besoins de Sant\u00e9 pour une Meilleure M\u00e9decine."
     },
     "category": {
         "item-1": "MOBILIER MEDICAL",

@@ -1,13 +1,6 @@
 {
     "title": "Your professional medical and paramedical equipment",
-    "menu": {
-        "home": "HOME",
-        "product": "OUR PRODUCTS",
-        "brand": "BRANDS",
-        "news": "NEW",
-        "contact": "CONTACT",
-        "download": "DOWNLOAD CATALOG"
-    },
+    "menu": { "home": "HOME", "product": "OUR PRODUCTS", "brand": "BRANDS", "news": "NEW", "contact": "CONTACT", "download": "DOWNLOAD CATALOG" },
     "header": {
         "product": "NEW PRODUCTS",
         "brand": "OUR BRANDS",
@@ -18,14 +11,7 @@
         "partner": "Our Partners",
         "contact": "Contact us"
     },
-    "form": {
-        "firstname": "First name",
-        "lastname": "Last name",
-        "email": "Email",
-        "phone": "Phone",
-        "message": "Message",
-        "btn": "SEND"
-    },
+    "form": { "firstname": "First name", "lastname": "Last name", "email": "Email", "phone": "Phone", "message": "Message", "btn": "SEND" },
     "extra": {
         "file": "Download the product sheet",
         "search": "SEARCH",

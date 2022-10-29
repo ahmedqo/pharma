@@ -1,13 +1,6 @@
 {
     "title": "La tua attrezzatura medica e paramedica professionale",
-    "menu": {
-        "home": "ACCOGLIENZA",
-        "product": "NOSTRA PRODOTTI",
-        "brand": "MARCHI",
-        "news": "NUOVO",
-        "contact": "CONTATTO",
-        "download": "SCARICA CATALOGO"
-    },
+    "menu": { "home": "ACCOGLIENZA", "product": "NOSTRA PRODOTTI", "brand": "MARCHI", "news": "NUOVO", "contact": "CONTATTO", "download": "SCARICA CATALOGO" },
     "header": {
         "product": "NUOVI PRODOTTI",
         "brand": "NOSTRA MARCHI",
@@ -18,14 +11,7 @@
         "partner": "Nostra Partner",
         "contact": "Contattaci"
     },
-    "form": {
-        "firstname": "Nome",
-        "lastname": "Cognome",
-        "email": "E-mail",
-        "phone": "Telefono",
-        "message": "Messaggio",
-        "btn": "INVIA"
-    },
+    "form": { "firstname": "Nome", "lastname": "Cognome", "email": "E-mail", "phone": "Telefono", "message": "Messaggio", "btn": "INVIA" },
     "extra": {
         "file": "Scarica la scheda prodotto",
         "search": "RICERCA",
@@ -39,7 +25,7 @@
         "arabic": "Arabo"
     },
     "text": {
-        "section": "PROMED PLANET è uno specialista nella vendita di apparecchiature mediche a operatori sanitari e privati. selezioniamo e distribuiamo prodotti delle più grandi marche affinché tu possa esercitare la tua professione o monitorare la tua salute con le migliori attrezzature e ai migliori prezzi.",
+        "section": "PROMED PLANET \u00e8 uno specialista nella vendita di apparecchiature mediche a operatori sanitari e privati. selezioniamo e distribuiamo prodotti delle pi\u00f9 grandi marche affinch\u00e9 tu possa esercitare la tua professione o monitorare la tua salute con le migliori attrezzature e ai migliori prezzi.",
         "slide": "Insieme per una medicina migliore.",
         "product": "Nostra multigamme in risposta alle diverse esigenze di Health for a Better Medicine."
     },
