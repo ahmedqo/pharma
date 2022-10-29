@@ -65,7 +65,7 @@ function translate($id, $fr, $en, $it, $ar)
 function product($id, $img, $products)
 {
     array_push($products, [
-        "path" => "/products/" . clean($_POST["title_fr"]),
+        "path" => "/products/" . clean($_POST["title_fr"]) . ".html",
         "image" => $img,
         "title" => $_POST["title_fr"],
         "category" => $_POST["category"],
