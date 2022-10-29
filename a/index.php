@@ -116,10 +116,10 @@ function uploads($file)
 }
 
 if (isset($_POST['send'])) {
-    $img = upload($_FILES['primary']);
+    $image = upload($_FILES['primary']);
     $images = uploads($_FILES['extra']);
     translate($id, $fr, $en, $it, $ar);
-    product($id, $img, $products);
+    product($id, $image, $products);
     $myfile = fopen("../products/" . clean($_POST['title_fr']) . ".html", "w+") or die("Unable to open file!");
     $IMG = '';
     foreach ($images as $img) {
@@ -181,7 +181,7 @@ if (isset($_POST['send'])) {
             <section id="print" class="flex flex-col lg:flex-row lg:flex-wrap gap-4 w-full lg:w-0 lg:flex-1">
                 <div class="w-full lg:w-96 flex flex-col gap-2">
                     <picture class="w-full h-96 border border-gray-200 shadow-sm rounded-2xl bg-white p-4 flex items-center justify-center">
-                        <img id="preview" src="' . $img . '" class="block max-w-full max-h-full" />
+                        <img id="preview" src="' . $image . '" class="block max-w-full max-h-full" />
                     </picture>
                     <div class="w-full overflow-x-auto scroll">
                         <div class="flex flex-wrap w-max gap-2">'  . $IMG . '</div>
