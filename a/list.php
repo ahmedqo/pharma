@@ -1,11 +1,11 @@
 <?php
 session_start();
 
-// if (!isset($_SESSION["logged_in"]) || isset($_GET['logout'])) {
-//     session_destroy();
-//     header("location: /a/index.php");
-//     die();
-// }
+if (!isset($_SESSION["logged_in"]) || isset($_GET['logout'])) {
+    session_destroy();
+    header("location: /a/index.php");
+    die();
+}
 
 $products = json_decode(file_get_contents("../json/products.json"), true);
 $fr = json_decode(file_get_contents("../translate/data-fr.json"), true);
@@ -15,6 +15,13 @@ $ar = json_decode(file_get_contents("../translate/data-ar.json"), true);
 
 
 if (isset($_GET['remove'])) {
+    $pro = array_filter($products, function ($v, $k) {
+        return $v["id"] === (int)$_GET['remove'];
+    }, ARRAY_FILTER_USE_BOTH);
+    unlink(substr(getcwd(), 1, -2) . array_values($pro)[0]['path']);
+    foreach (explode("|", array_values($pro)[0]['images']) as $img) {
+        unlink(substr(getcwd(), 1, -2) . $img);
+    }
     $prods = array_filter($products, function ($v, $k) {
         return $v["id"] !== (int)$_GET['remove'];
     }, ARRAY_FILTER_USE_BOTH);
@@ -35,15 +42,8 @@ if (isset($_GET['remove'])) {
     file_put_contents("../translate/data-en.json", json_encode($en), true);
     file_put_contents("../translate/data-it.json", json_encode($it), true);
     file_put_contents("../translate/data-ar.json", json_encode($ar), true);
-    $pro = array_filter($products, function ($v, $k) {
-        return $v["id"] === (int)$_GET['remove'];
-    }, ARRAY_FILTER_USE_BOTH);
-
-    unlink("../" . $pro["path"]);
-    foreach (explode("|", $pro["images"]) as $img) {
-        unlink("../" . $img);
-    }
     header("location: /a/list.php");
+    die();
 }
 ?>
 
