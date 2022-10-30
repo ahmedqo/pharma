@@ -18,9 +18,9 @@ if (isset($_GET['remove'])) {
     $pro = array_filter($products, function ($v, $k) {
         return $v["id"] === (int)$_GET['remove'];
     }, ARRAY_FILTER_USE_BOTH);
-    unlink(substr(getcwd(), 1, -2) . array_values($pro)[0]['path']);
+    unlink("../". array_values($pro)[0]['path']);
     foreach (explode("|", array_values($pro)[0]['images']) as $img) {
-        unlink(substr(getcwd(), 1, -2) . $img);
+        unlink("../" . $img);
     }
     $prods = array_filter($products, function ($v, $k) {
         return $v["id"] !== (int)$_GET['remove'];

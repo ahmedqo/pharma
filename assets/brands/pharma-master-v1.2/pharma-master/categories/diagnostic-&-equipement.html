@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+        <html lang="fr" class="w-full overflow-x-hidden">
+        
+        <head>
+            <meta charset="UTF-8" />
+            <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+            <script src="https://cdn.tailwindcss.com/"></script>
+            <script src="/assets/js/app.js"></script>
+            <link rel="stylesheet" href="/assets/css/style.css" />
+            <title data-translate-id="category.item-4">PROMED PLANET</title>
+        </head>
+        
+        <body class="text-gray-800 pb-4 lg:pt-4">
+            <span id="header"></span>
+            <main class="overflow-x-hidden">
+                <span id="slider"></span>
+                <section class="flex flex-wrap gap-2 items-center mx-auto container p-4">
+                    <a href="/index.html" data-translate-id="menu.home" class="block">ACCUEIL</a>
+                    <span class="block border border-gray-900 w-2"></span>
+                    <a href="/products.html" data-translate-id="header.category" class="block">NOS GAMMES</a>
+                    <span class="block border border-gray-900 w-2"></span>
+                    <a href="/categories/diagnostic-&-equipement.html" data-translate-id="category.item-4" class="block text-prime">DIAGNOSTIC & EQUIPEMENT</a>
+                </section>
+                <section class="flex flex-col lg:flex-row lg:flex-wrap gap-4 p-4 container mx-auto items-start mt-4 lg:mt-6 mb-16 lg:mb-24">
+                    <div class="w-full lg:w-1/4 flex flex-col gap-4">
+                        <div class="w-full text-white items-center justify-between flex gap-4 lg:hidden rounded-2xl bg-grade px-4 py-2">
+                            <h1 data-translate-id="category.item-4" class="font-semibold text-xl">DIAGNOSTIC & EQUIPEMENT</h1>
+                            <button onclick="show(`#aside`)" class="block">
+                                    <svg class="block h-6 w-6 pointer-events-none" fill="currentcolor" viewBox="0 0 48 48">
+                                        <path
+                                            d="M21.05 43V30.75h4v4.2h17.7v4h-17.7V43Zm-15.8-4.05v-4h13.3v4Zm9.3-8.9v-4.1h-9.3V22h9.3v-4.15h4v12.2Zm6.5-4.1V22h21.7v3.95Zm8.4-8.75V4.95h4v4.1h9.3v4h-9.3v4.15Zm-24.2-4.15v-4h21.7v4Z"
+                                        />
+                                    </svg>
+                                </button>
+                        </div>
+                        <span id="aside"></span>
+                    </div>
+                    <div class="w-full lg:w-0 lg:flex-1 flex flex-col gap-4">
+                        <h1 data-translate-id="category.item-4" class="text-2xl font-bold">
+                            DIAGNOSTIC & EQUIPEMENT
+                        </h1>
+                        <div id="display" class="flex flex-wrap gap-4 w-full"></div>
+                    </div>
+                </section>
+            </main>
+            <span id="footer"></span>
+            <script defer>
+                Starter.add(
+                    () => populate.Product(filter("DIAGNOSTIC & EQUIPEMENT", "category")),
+                    () => {
+                        Element.Aside();
+                        Element.Header();
+                        Element.Slider(true);
+                        Element.Footer(true);
+                    }
+                ).init();
+            </script>
+            <script src="/assets/js/translate.js" defer></script>
+            <div id="overlay" class="fixed inset-0 bg-white" style="z-index: 99999;"></div>
+        </body>
+        
+        </html>
+    

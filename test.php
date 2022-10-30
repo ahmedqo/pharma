@@ -10,13 +10,15 @@ if ($handle = opendir('./products/')) {
             foreach ($page->find('.scroll button') as $image) {
                 array_push($images, $image->find('img', 0)->src);
             }
+            $brand = explode(".", basename($page->find("div.flex.flex-col img.block.max-60", 0)->src))[0];
+            if (strlen($brand) == 0) $brand = "BRAND-LESS";
             array_push($array, [
                 "path" => "/products/" . clean($entry),
                 "images" => implode("|", $images),
                 "image" => $page->find("#preview", 0)->src,
                 "title" => trim($page->find("h1.text-4xl", 0)->plaintext),
                 "category" => $page->find("section.flex.flex-wrap.gap-2.items-center.mx-auto.container.p-4 a", 2)->plaintext,
-                "brand" => explode(".", basename($page->find("div.flex.flex-col img.block.max-60", 0)->src))[0],
+                "brand" => $brand,
                 "id" => (int)explode("-", explode(".", $page->find("title", 0)->attr["data-translate-id"])[1])[1]
             ]);
         }
