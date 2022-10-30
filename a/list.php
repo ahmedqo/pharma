@@ -18,7 +18,7 @@ if (isset($_GET['remove'])) {
     $pro = array_filter($products, function ($v, $k) {
         return $v["id"] === (int)$_GET['remove'];
     }, ARRAY_FILTER_USE_BOTH);
-    unlink("../". array_values($pro)[0]['path']);
+    unlink("../" . array_values($pro)[0]['path']);
     foreach (explode("|", array_values($pro)[0]['images']) as $img) {
         unlink("../" . $img);
     }
@@ -87,7 +87,7 @@ if (isset($_GET['remove'])) {
     <main class="overflow-x-hidden">
         <section class="flex flex-col gap-4 container mx-auto px-4 items-end mt-10">
             <div class="w-full h-12 flex rounded-md bg-gray-100 overflow-hidden">
-                <input type="search" id="search" name="search" onkeyup="myFunction()" class="text-gray-900 p-4 text-lg flex-1 h-full bg-transparent rounded-md focus:outline focus:outline-2 outline-green-500" placeholder="Search" />
+                <input type="search" id="search" name="search" onkeyup="myFunction()" class="text-gray-900 p-4 text-lg flex-1 h-full bg-transparent rounded-md focus:outline focus:outline-2 outline-green-500" placeholder="Recherche..." />
             </div>
             <div class="w-full bg-white overflow-hidden">
                 <div class="w-full rounded-md overflow-x-auto">
@@ -105,7 +105,7 @@ if (isset($_GET['remove'])) {
                                         <img src="<?= $value['image'] ?>" class="w-20 block aspect-square rounded-md" />
                                     </td>
                                     <td class="px-4 py-3 text-sm">
-                                        <?= $value['title'] ?>
+                                        <a href="<?= $value['path'] ?>"><?= $value['title'] ?></a>
                                     </td>
                                     <td class="px-4 py-3">
                                         <div class="flex gap-2 items-center justify-center text-sm">

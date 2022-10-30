@@ -1,13 +1,4 @@
 [{
-        "path": "/products/TENSIOMETRE-DIGITAL-BRASSARD-YUWELL-MEDO.html",
-        "images": "/assets/products/prime-YE-680B-N-20220906165238.jpg",
-        "image": false,
-        "title": "TENSIOMETRE DIGITAL BRASSARD YUWELL MEDO+",
-        "category": "DIAGNOSTIC & APPAREILLAGE",
-        "brand": "YUWEL",
-        "id": 4
-    },
-    {
         "path": "/products/ARMATURE-ORTHOPEDIQUE-DE-TABLE-TRACTION-MANUELLE.html",
         "images": "/assets/products/12-Model98.jpg|/assets/products/ARMATURE-23-20200113163026.jpg",
         "image": "/assets/products/12-Model98.jpg",
@@ -35,7 +26,7 @@
         "id": 102
     },
     {
-        "path": "/products/TABLE-DACCOUCHEMENT-ELECTRIQUE-REGNA-+.html",
+        "path": "/products/TABLE-DACCOUCHEMENT-ELECTRIQUE---REGNA-+.html",
         "images": "/assets/products/99B-1ET-20180810140831.jpg",
         "image": "/assets/products/99B-1ET-20180810140831.jpg",
         "title": "TABLE D'ACCOUCHEMENT ELECTRIQUE   REGNA +",
@@ -44,7 +35,7 @@
         "id": 103
     },
     {
-        "path": "/products/TABLE-DOPERATION-MECANIQUE-OPERA-M.html",
+        "path": "/products/TABLE-DOPERATION-MECANIQUE---OPERA-M.html",
         "images": "/assets/products/3008-AB-01-N-20200113165239.jpg|/assets/products/3008-AB-23-20200113164207.jpg",
         "image": "/assets/products/3008-AB-01-N-20200113165239.jpg",
         "title": "TABLE D'OPERATION MECANIQUE   OPERA-M",
@@ -53,7 +44,7 @@
         "id": 104
     },
     {
-        "path": "/products/TABLE-OP\u00c9RATION-ELECTRIQUE-OPERA-E-SK.html",
+        "path": "/products/TABLE-OP\u00c9RATION-ELECTRIQUE--OPERA-E-SK.html",
         "images": "/assets/products/A200-1-N-20210715130938.jpg",
         "image": "/assets/products/A200-1-N-20210715130938.jpg",
         "title": "TABLE OP\u00c9RATION ELECTRIQUE  OPERA-ESK",
@@ -71,7 +62,7 @@
         "id": 106
     },
     {
-        "path": "/products/ARMATURE-ORTHOPEDIQUE-DE-TABLE-TRACTION-MANUELLE-SK.html",
+        "path": "/products/ARMATURE-ORTHOPEDIQUE--DE-TABLE-TRACTION-MANUELLE-SK.html",
         "images": "/assets/products/A03-FN-20210805173450.jpg",
         "image": "/assets/products/A03-FN-20210805173450.jpg",
         "title": "ARMATURE ORTHOPEDIQUE  DE TABLE TRACTION MANUELLE SK",
@@ -80,7 +71,7 @@
         "id": 107
     },
     {
-        "path": "/products/TABLE-DEXAMEN-GYNECO-EN-INOX-GYNECAS-SK2.html",
+        "path": "/products/TABLE-DEXAMEN-GYNECO-EN-INOX--GYNECAS-SK2.html",
         "images": "/assets/products/A045-7-N-20210806171808.jpg",
         "image": "/assets/products/A045-7-N-20210806171808.jpg",
         "title": "TABLE D'EXAMEN GYNECO EN INOX  GYNECASSK2",
@@ -89,7 +80,7 @@
         "id": 108
     },
     {
-        "path": "/products/TABLE-OP\u00c9RATION-ELECTRIQUE-ASTRA-E-SK.html",
+        "path": "/products/TABLE-OP\u00c9RATION-ELECTRIQUE--ASTRA-E-SK.html",
         "images": "/assets/products/A100-4-N-20210827182703.jpg|/assets/products/A100-4-2B-20220104143254.jpg|/assets/products/A100-4-3N-20220104143818.jpg|/assets/products/A100-4-4B-20220104144155.jpg|/assets/products/A100-4-5B-20220104144647.jpg|/assets/products/A100-4-6B-20220104145200.jpg",
         "image": "/assets/products/A100-4-N-20210827182703.jpg",
         "title": "TABLE OP\u00c9RATION ELECTRIQUE  ASTRA-E SK",
@@ -107,7 +98,7 @@
         "id": 110
     },
     {
-        "path": "/products/FAUTEUIL-DE-DIALYSE-ELECTRIQUE-DIA-3-.html",
+        "path": "/products/FAUTEUIL-DE-DIALYSE-ELECTRIQUE---DIA-3-.html",
         "images": "/assets/products/SKE-180-N-20210302105442.jpg|/assets/products/SKE-180-2-B-20200428131013.jpg|/assets/products/SKE-180-3-B-20200428131054.jpg|/assets/products/SKE-180-4-B-20200428131149.jpg|/assets/products/SKE-180-INT1-B-20210319144613.jpg|/assets/products/SKE-180-INT2-01-20210319144708.jpg|/assets/products/SKE-180-INT3-01-20210319144738.jpg",
         "image": "/assets/products/SKE-180-N-20210302105442.jpg",
         "title": "FAUTEUIL DE DIALYSE ELECTRIQUE   DIA 3",
@@ -152,7 +143,7 @@
         "id": 115
     },
     {
-        "path": "/products/TABLE-ELECTRIQUE-ROBIN-2.html",
+        "path": "/products/TABLE-ELECTRIQUE--ROBIN-2.html",
         "images": "/assets/products/EL-02CC-N-20191029114234.jpg|/assets/products/EL-02-20150713143950.jpg|/assets/products/EL-02-20150715164135.jpg",
         "image": "/assets/products/EL-02CC-N-20191029114234.jpg",
         "title": "TABLE ELECTRIQUE  ROBIN 2",
@@ -161,7 +152,7 @@
         "id": 116
     },
     {
-        "path": "/products/TABLE-ELECTRIQUE-ROBIN-3.html",
+        "path": "/products/TABLE-ELECTRIQUE---ROBIN-3.html",
         "images": "/assets/products/EL-03CC-N-20191029112900.jpg|/assets/products/EL-03-20150713145644.jpg|/assets/products/EL-03-20150715165326.jpg|/assets/products/EL-03CC-MAQ-20210617160920.jpg",
         "image": "/assets/products/EL-03CC-N-20191029112900.jpg",
         "title": "TABLE ELECTRIQUE   ROBIN 3",
@@ -251,7 +242,7 @@
         "id": 126
     },
     {
-        "path": "/products/LIT-MECANIQUE-JUNIOR.html",
+        "path": "/products/LIT-MECANIQUE--JUNIOR.html",
         "images": "/assets/products/X03-01-NRL-20191009114026.jpg",
         "image": "/assets/products/X03-01-NRL-20191009114026.jpg",
         "title": "LIT MECANIQUE  JUNIOR",
@@ -269,7 +260,7 @@
         "id": 128
     },
     {
-        "path": "/products/LIT-ELECTRIQUE-SUPRA-3.html",
+        "path": "/products/LIT-ELECTRIQUE--SUPRA-3.html",
         "images": "/assets/products/K-A541-N-20191112133959.jpg",
         "image": "/assets/products/K-A541-N-20191112133959.jpg",
         "title": "LIT ELECTRIQUE  SUPRA 3",
@@ -341,7 +332,7 @@
         "id": 136
     },
     {
-        "path": "/products/CHARIOT-A-LINGE-SALE-PROPRE-EN-INOX.html",
+        "path": "/products/CHARIOT-A-LINGE-SALE---PROPRE-EN-INOX.html",
         "images": "/assets/products/KB-0117-20150713175932.jpg",
         "image": "/assets/products/KB-0117-20150713175932.jpg",
         "title": "CHARIOT A LINGE SALE   PROPRE EN INOX",
@@ -359,7 +350,7 @@
         "id": 138
     },
     {
-        "path": "/products/BAQUET-EN-INOX-1-CUVETTE-A-4-ROUES.html",
+        "path": "/products/BAQUET-EN-INOX-1-CUVETTE--A-4-ROUES.html",
         "images": "/assets/products/KD-0013-20150714121613.jpg",
         "image": "/assets/products/KD-0013-20150714121613.jpg",
         "title": "BAQUET EN INOX 1 CUVETTE  A 4 ROUES",
@@ -440,7 +431,7 @@
         "id": 147
     },
     {
-        "path": "/products/GUERIDON-EN-ABS-3-PLATEAUX-AVEC-TIROIR.html",
+        "path": "/products/GUERIDON-EN-ABS-3-PLATEAUX--AVEC-TIROIR.html",
         "images": "/assets/products/SKR008-20190326174400.jpg",
         "image": "/assets/products/SKR008-20190326174400.jpg",
         "title": "GUERIDON EN ABS 3 PLATEAUX  AVEC TIROIR",
@@ -620,7 +611,7 @@
         "id": 167
     },
     {
-        "path": "/products/POTENCE-A-SERUM-INOX-PORTE-MONITEUR-ABS.html",
+        "path": "/products/POTENCE-A-SERUM-INOX--PORTE-MONITEUR-ABS.html",
         "images": "/assets/products/IV-F-01-01-20150713140218.jpg|/assets/products/IV-F-01-20150713140310.jpg",
         "image": "/assets/products/IV-F-01-01-20150713140218.jpg",
         "title": "POTENCE A SERUM INOX  PORTE MONITEUR ABS",
@@ -746,7 +737,7 @@
         "id": 181
     },
     {
-        "path": "/products/GOOSE-LAMPE-LED-AVEC-VARIATEUR.html",
+        "path": "/products/GOOSE--LAMPE-LED-AVEC-VARIATEUR.html",
         "images": "/assets/products/UPL6100-20150713171818.jpg",
         "image": "/assets/products/UPL6100-20150713171818.jpg",
         "title": "GOOSE  LAMPE LED AVEC VARIATEUR",
@@ -899,7 +890,7 @@
         "id": 198
     },
     {
-        "path": "/products/BRANCARD-ALUMINIUM-PLIABLE-EVAC-A1.html",
+        "path": "/products/BRANCARD-ALUMINIUM-PLIABLE---EVAC-A1.html",
         "images": "/assets/products/YDC-1A1-20151120163650.jpg|/assets/products/YDC-1A1-1--20151120172454.jpg",
         "image": "/assets/products/YDC-1A1-20151120163650.jpg",
         "title": "BRANCARD ALUMINIUM PLIABLE   EVAC A1",
@@ -926,7 +917,7 @@
         "id": 201
     },
     {
-        "path": "/products/BRANCARD-PLAN-EN-PVC-PLAN-DUR.html",
+        "path": "/products/BRANCARD-PLAN-EN-PVC--PLAN-DUR.html",
         "images": "/assets/products/YDC-7B2-20170505124308.jpg",
         "image": "/assets/products/YDC-7B2-20170505124308.jpg",
         "title": "BRANCARD PLAN EN PVC  PLAN DUR",
@@ -962,7 +953,7 @@
         "id": 205
     },
     {
-        "path": "/products/BRANCARD-CHAISE-4-ROUES-CHAIR4.html",
+        "path": "/products/BRANCARD-CHAISE-4-ROUES--CHAIR4.html",
         "images": "/assets/products/YDC-5LS-N-20210211161247.jpg",
         "image": "/assets/products/YDC-5LS-N-20210211161247.jpg",
         "title": "BRANCARD CHAISE 4 ROUES  CHAIR4",
@@ -1052,7 +1043,7 @@
         "id": 215
     },
     {
-        "path": "/products/MATELAS-EN-MOUSSE-CLASSE1-PHARMA-PLOTS-PLOTS-FIXES.html",
+        "path": "/products/MATELAS-EN-MOUSSE-CLASSE1--PHARMA-PLOTS-PLOTS-FIXES.html",
         "images": "/assets/products/45034PK-20180924111915.jpg",
         "image": "/assets/products/45034PK-20180924111915.jpg",
         "title": "MATELAS EN MOUSSE CLASSE1  PHARMA PLOTS - PLOTS FIXES",
@@ -1079,7 +1070,7 @@
         "id": 218
     },
     {
-        "path": "/products/MATELAS-A-EAU-PHARMAO-3PARTIES-SANS-CADRE.html",
+        "path": "/products/MATELAS-A-EAU-PHARMAO-3PARTIES--SANS-CADRE.html",
         "images": "/assets/products/109910-20180924123034.jpg",
         "image": "/assets/products/109910-20180924123034.jpg",
         "title": "MATELAS A EAU PHARMAO 3PARTIES  SANS CADRE",
@@ -1106,7 +1097,7 @@
         "id": 221
     },
     {
-        "path": "/products/MATELAS-CLASSE-1-PHARMA-OCEANIS-3Parties.html",
+        "path": "/products/MATELAS-CLASSE-1--PHARMA-OCEANIS-3Parties.html",
         "images": "/assets/products/04-5700-N-20201116121917.jpg",
         "image": "/assets/products/04-5700-N-20201116121917.jpg",
         "title": "MATELAS CLASSE 1  PHARMA OCEANIS - 3Parties",
@@ -1250,7 +1241,7 @@
         "id": 237
     },
     {
-        "path": "/products/CABLE-TEMPERATURE-MONITEURS-ANCIEN-MODELE.html",
+        "path": "/products/CABLE-TEMPERATURE-MONITEURS--ANCIEN-MODELE.html",
         "images": "/assets/products/CMS-TEMP-N-20210806162600.jpg",
         "image": "/assets/products/CMS-TEMP-N-20210806162600.jpg",
         "title": "CABLE TEMPERATURE MONITEURS  ANCIEN MODELE",
@@ -1376,7 +1367,7 @@
         "id": 251
     },
     {
-        "path": "/products/DINAMAP-MONITEUR-DE-SURVEILLANCE-3-PARAMETRES-+Temp\u00e9rature.html",
+        "path": "/products/DINAMAP-MONITEUR-DE-SURVEILLANCE--3-PARAMETRES-+Temp\u00e9rature.html",
         "images": "/assets/products/CMS5100-3-FN-20210602104346.jpg|/assets/products/CMS5100-3-F-Big-20191001122007.jpg",
         "image": "/assets/products/CMS5100-3-FN-20210602104346.jpg",
         "title": "DINAMAP MONITEUR DE SURVEILLANCE  3 PARAMETRES +Temp\u00e9rature",
@@ -1403,7 +1394,7 @@
         "id": 254
     },
     {
-        "path": "/products/POMPE-POUSSE-SERINGUE-AUTO-POUSSEUSE-01-VOIE.html",
+        "path": "/products/POMPE-POUSSE-SERINGUE--AUTO-POUSSEUSE-01-VOIE.html",
         "images": "/assets/products/CTN-W100-N1-20210303165937.jpg",
         "image": "/assets/products/CTN-W100-N1-20210303165937.jpg",
         "title": "POMPE POUSSE-SERINGUE  AUTO-POUSSEUSE - 01 VOIE",
@@ -1421,7 +1412,7 @@
         "id": 256
     },
     {
-        "path": "/products/DOPPLER-FOETAL-ULTRA-SONIC-SONOLINE-C.html",
+        "path": "/products/DOPPLER-FOETAL-ULTRA-SONIC--SONOLINE-C.html",
         "images": "/assets/products/Sonoline-c-20180709140643.jpg",
         "image": "/assets/products/Sonoline-c-20180709140643.jpg",
         "title": "DOPPLER FOETAL ULTRA-SONIC  'SONOLINE-C'",
@@ -1484,7 +1475,7 @@
         "id": 263
     },
     {
-        "path": "/products/CABLE-SPO2-NEONATAL-ANCIEN-MODELE.html",
+        "path": "/products/CABLE-SPO2-NEONATAL--ANCIEN-MODELE.html",
         "images": "/assets/products/CABLE-SPO2-NOUVEAU-NE-1-20180903165148.jpg|/assets/products/CMS-SPO2-N-2B-20210907185339.jpg",
         "image": "/assets/products/CABLE-SPO2-NOUVEAU-NE-1-20180903165148.jpg",
         "title": "CABLE SPO2 NEONATAL  ANCIEN MODELE",
@@ -1556,7 +1547,7 @@
         "id": 271
     },
     {
-        "path": "/products/CABLE-SPO2-ADULTE-NOUVEAU-MODELE.html",
+        "path": "/products/CABLE-SPO2-ADULTE--NOUVEAU-MODELE.html",
         "images": "/assets/products/CDB6000N-N-20210806113955.jpg|/assets/products/CBD6000-2B-20210907184934.jpg",
         "image": "/assets/products/CDB6000N-N-20210806113955.jpg",
         "title": "CABLE SPO2ADULTE  NOUVEAU MODELE",
@@ -1565,7 +1556,7 @@
         "id": 272
     },
     {
-        "path": "/products/CABLE-SPO2-NEONATAL-NOUVEAU-MODELE.html",
+        "path": "/products/CABLE-SPO2-NEONATAL--NOUVEAU-MODELE.html",
         "images": "/assets/products/CMS-SPO2-1-N-NO-20210806114854.jpg|/assets/products/CBD6000-2B-20210907185024.jpg",
         "image": "/assets/products/CMS-SPO2-1-N-NO-20210806114854.jpg",
         "title": "CABLE SPO2 NEONATAL  NOUVEAU MODELE",
@@ -1583,7 +1574,7 @@
         "id": 274
     },
     {
-        "path": "/products/TENSIOMETRE-A-VELCRO-MULTICOLORE-ENFANT-N.NE.html",
+        "path": "/products/TENSIOMETRE-A-VELCRO-MULTICOLORE--ENFANT-N.NE.html",
         "images": "/assets/products/HS-020C.jpg|/assets/products/HS-020C-20150717115644.JPG",
         "image": "/assets/products/HS-020C.jpg",
         "title": "TENSIOMETRE A VELCRO MULTICOLORE  ENFANT / N.NE",
@@ -1610,7 +1601,7 @@
         "id": 277
     },
     {
-        "path": "/products/TENSIOMETRE-ANEROID-MONOPOIRE-PALM-3-BRASSARDS.html",
+        "path": "/products/TENSIOMETRE-ANEROID-MONOPOIRE--PALM-3-BRASSARDS.html",
         "images": "/assets/products/HSGF-301.jpg",
         "image": "/assets/products/HSGF-301.jpg",
         "title": "TENSIOMETRE ANEROID MONOPOIRE  \"PALM\" - 3 BRASSARDS",
@@ -1619,7 +1610,7 @@
         "id": 278
     },
     {
-        "path": "/products/TENSIOMETRE-ANEROID-+-STETHO-1-PAV.-TROUSSE.html",
+        "path": "/products/TENSIOMETRE-ANEROID-+-STETHO-1-PAV.--TROUSSE.html",
         "images": "/assets/products/SM20003.jpg",
         "image": "/assets/products/SM20003.jpg",
         "title": "TENSIOMETRE ANEROID + STETHO 1 PAV.  TROUSSE",
@@ -1628,7 +1619,7 @@
         "id": 279
     },
     {
-        "path": "/products/CORDON-SPIRAL-POUR-TENSIOMETRE-.html",
+        "path": "/products/CORDON-SPIRAL--POUR-TENSIOMETRE-.html",
         "images": "/assets/products/75-155C-20150715172049.jpg",
         "image": "/assets/products/75-155C-20150715172049.jpg",
         "title": "CORDON SPIRAL  POUR TENSIOMETRE",
@@ -1727,7 +1718,7 @@
         "id": 290
     },
     {
-        "path": "/products/TENSIOMETRE-ANEROID-A-VELCRO-ADULTE.html",
+        "path": "/products/TENSIOMETRE-ANEROID---A-VELCRO-ADULTE.html",
         "images": "/assets/products/Aneriod-20190704130530.jpg",
         "image": "/assets/products/Aneriod-20190704130530.jpg",
         "title": "TENSIOMETRE ANEROID   A VELCRO ADULTE",
@@ -1754,7 +1745,7 @@
         "id": 293
     },
     {
-        "path": "/products/STETHOSCOPE-DUAL-2-PAVILLONS.html",
+        "path": "/products/STETHOSCOPE-DUAL--2-PAVILLONS.html",
         "images": "/assets/products/HS-30BD.jpg",
         "image": "/assets/products/HS-30BD.jpg",
         "title": "STETHOSCOPE \"DUAL\"  2 PAVILLONS",
@@ -1763,7 +1754,7 @@
         "id": 294
     },
     {
-        "path": "/products/STETHOSCOPE-NOIR-HEUER-2-PAVILLONS-.html",
+        "path": "/products/STETHOSCOPE-NOIR-HEUER--2-PAVILLONS-.html",
         "images": "/assets/products/STGST1R-NOIR--20151202135633.jpg",
         "image": "/assets/products/STGST1R-NOIR--20151202135633.jpg",
         "title": "STETHOSCOPE NOIR \"HEUER\"  2 PAVILLONS",
@@ -1799,7 +1790,7 @@
         "id": 298
     },
     {
-        "path": "/products/STETHOSCOPE-SPENGLER-PULSE-1-PAVILLON.html",
+        "path": "/products/STETHOSCOPE-SPENGLER-PULSE--1-PAVILLON.html",
         "images": "/assets/products/7507500.jpg",
         "image": "/assets/products/7507500.jpg",
         "title": "STETHOSCOPE \"SPENGLER\" PULSE  1 PAVILLON",
@@ -1844,7 +1835,7 @@
         "id": 303
     },
     {
-        "path": "/products/STETHOSCOPE-DOUBLE-PAVILLONS-YUWELL.html",
+        "path": "/products/STETHOSCOPE-DOUBLE-PAVILLONS---YUWELL.html",
         "images": "/assets/products/YM-SDL-B-N-20210319152505.jpg",
         "image": "/assets/products/YM-SDL-B-N-20210319152505.jpg",
         "title": "STETHOSCOPE DOUBLE PAVILLONS   YUWELL",
@@ -1853,7 +1844,7 @@
         "id": 304
     },
     {
-        "path": "/products/STETHOSCOPE-SINGLE-YUWELL.html",
+        "path": "/products/STETHOSCOPE-SINGLE--YUWELL.html",
         "images": "/assets/products/YM-SSG-01-N-20210319152750.jpg",
         "image": "/assets/products/YM-SSG-01-N-20210319152750.jpg",
         "title": "STETHOSCOPE SINGLE  YUWELL",
@@ -2096,7 +2087,7 @@
         "id": 332
     },
     {
-        "path": "/products/ECHELLE-DACUITE-VISUELLE-LETREE-E-11.html",
+        "path": "/products/ECHELLE-DACUITE-VISUELLE---LETREE-E-11.html",
         "images": "/assets/products/301-03E-N-20200207163534.jpg",
         "image": "/assets/products/301-03E-N-20200207163534.jpg",
         "title": "ECHELLE D'ACUITE VISUELLE   LETREE \"E\" /11",
@@ -2105,7 +2096,7 @@
         "id": 333
     },
     {
-        "path": "/products/ECHELLE-DACUITE-VISUELLE-LETREE-A-11.html",
+        "path": "/products/ECHELLE-DACUITE-VISUELLE---LETREE-A-11.html",
         "images": "/assets/products/301-3AA-N-20200221181254.jpg",
         "image": "/assets/products/301-3AA-N-20200221181254.jpg",
         "title": "ECHELLE D'ACUITE VISUELLE   LETREE \"A\" /11",
@@ -2132,7 +2123,7 @@
         "id": 336
     },
     {
-        "path": "/products/SPECULUM-VAGINAL-STERILE-A-VIS-SMALL-voir-autres-TAILLES.html",
+        "path": "/products/SPECULUM-VAGINAL-STERILE-A-VIS-SMALL--voir-autres-TAILLES.html",
         "images": "/assets/products/80020-20150721105521.jpg",
         "image": "/assets/products/80020-20150721105521.jpg",
         "title": "SPECULUM VAGINAL STERILE A VIS - SMALL  voir autres TAILLES",
@@ -2141,7 +2132,7 @@
         "id": 337
     },
     {
-        "path": "/products/SPECULUM-VAGINAL-CUSCO-INOX-SMALL-voir-autres-TAILLES.html",
+        "path": "/products/SPECULUM-VAGINAL-CUSCO-INOX-SMALL--voir-autres-TAILLES.html",
         "images": "/assets/products/47102.jpg",
         "image": "/assets/products/47102.jpg",
         "title": "SPECULUM VAGINAL CUSCO INOX - SMALL  voir autres TAILLES",
@@ -2195,7 +2186,7 @@
         "id": 343
     },
     {
-        "path": "/products/GARROT-EPAIS-EN-TPE-VERT-voir-autres-COULEURS.html",
+        "path": "/products/GARROT-EPAIS-EN-TPE-VERT--voir-autres-COULEURS.html",
         "images": "/assets/products/80036-V-N-20210120165655.jpg",
         "image": "/assets/products/80036-V-N-20210120165655.jpg",
         "title": "GARROT EPAIS EN TPE VERT  voir autres COULEURS",
@@ -2231,7 +2222,7 @@
         "id": 347
     },
     {
-        "path": "/products/NEGATOSCOPE-1-PLAGE-voir-autres-dimensions-.html",
+        "path": "/products/NEGATOSCOPE-1-PLAGE--voir-autres-dimensions-.html",
         "images": "/assets/products/NEGATOSCOPE-1-PLAGE-20151204141156.jpg",
         "image": "/assets/products/NEGATOSCOPE-1-PLAGE-20151204141156.jpg",
         "title": "NEGATOSCOPE 1 PLAGE  voir autres dimensions",
@@ -2249,7 +2240,7 @@
         "id": 349
     },
     {
-        "path": "/products/TABLIER-ANTI-X-A-1-FACE-Pb-0.35MM.html",
+        "path": "/products/TABLIER-ANTI-X-A-1-FACE--Pb-0.35MM.html",
         "images": "/assets/products/XR-1X35-20180816182024.jpg",
         "image": "/assets/products/XR-1X35-20180816182024.jpg",
         "title": "TABLIER ANTI-X A 1 FACE  Pb 0.35MM",
@@ -2258,7 +2249,7 @@
         "id": 350
     },
     {
-        "path": "/products/TABLIER-ANTI-X-A-1-FACE-Pb-0.50MM.html",
+        "path": "/products/TABLIER-ANTI-X-A-1-FACE--Pb-0.50MM.html",
         "images": "/assets/products/XR-1X35-20180816182433.jpg",
         "image": "/assets/products/XR-1X35-20180816182433.jpg",
         "title": "TABLIER ANTI-X A 1 FACE  Pb 0.50MM",
@@ -2267,7 +2258,7 @@
         "id": 351
     },
     {
-        "path": "/products/TABLIER-ANTI-X-A-2-FACES-Pb-0.50MM.html",
+        "path": "/products/TABLIER-ANTI-X-A-2-FACES--Pb-0.50MM.html",
         "images": "/assets/products/PC-04-N-20200727183333.jpg",
         "image": "/assets/products/PC-04-N-20200727183333.jpg",
         "title": "TABLIER ANTI-X A 2 FACES  Pb 0.50MM",
@@ -2294,7 +2285,7 @@
         "id": 354
     },
     {
-        "path": "/products/GANTS-ANTI-X-OUVERTURE-PALMAIRE-Pb-0.50MM-PAIRE.html",
+        "path": "/products/GANTS-ANTI-X-OUVERTURE-PALMAIRE--Pb-0.50MM-PAIRE.html",
         "images": "/assets/products/PA13-20171220113139.jpg",
         "image": "/assets/products/PA13-20171220113139.jpg",
         "title": "GANTS ANTI-X OUVERTURE PALMAIRE  Pb 0.50MM - PAIRE",
@@ -2375,7 +2366,7 @@
         "id": 362
     },
     {
-        "path": "/products/ECRANS-RENFORCATEURS-POUR-CASSETTES-15X40-CM-voir-autres-dimensions-.html",
+        "path": "/products/ECRANS-RENFORCATEURS-POUR-CASSETTES-15X40-CM--voir-autres-dimensions-.html",
         "images": "/assets/products/EC.jpg",
         "image": "/assets/products/EC.jpg",
         "title": "ECRANS RENFORCATEURS POUR CASSETTES 15X40 CM  voir autres dimensions",
@@ -2420,7 +2411,7 @@
         "id": 366
     },
     {
-        "path": "/products/SUPPORT-ROULANT-PORTANT-DE-TABLIERS-ANTI-X-TRINGLES-FIXES.html",
+        "path": "/products/SUPPORT-ROULANT-PORTANT--DE-TABLIERS-ANTI-X-TRINGLES-FIXES.html",
         "images": "/assets/products/FB-01-20171222161122.jpg",
         "image": "/assets/products/FB-01-20171222161122.jpg",
         "title": "SUPPORT ROULANT PORTANT  DE TABLIERS ANTI-X TRINGLES FIXES",
@@ -2429,7 +2420,7 @@
         "id": 367
     },
     {
-        "path": "/products/SUPPORT-ROULANT-PORTANT-DE-TABLIERS-ANTI-X-TRINGLES-AMOVIBLES.html",
+        "path": "/products/SUPPORT-ROULANT-PORTANT--DE-TABLIERS-ANTI-X-TRINGLES-AMOVIBLES.html",
         "images": "/assets/products/FB-03-20180817184540.jpg",
         "image": "/assets/products/FB-03-20180817184540.jpg",
         "title": "SUPPORT ROULANT PORTANT  DE TABLIERS ANTI-X TRINGLES AMOVIBLES",
@@ -2465,7 +2456,7 @@
         "id": 370
     },
     {
-        "path": "/products/CASSETTES-FILMS-RADIO-18-X-24-CM-voir-autres-dimensions-.html",
+        "path": "/products/CASSETTES-FILMS-RADIO-18-X-24-CM--voir-autres-dimensions-.html",
         "images": "/assets/products/AX.jpg",
         "image": "/assets/products/AX.jpg",
         "title": "CASSETTES FILMS RADIO 18 X 24 CM  voir autres dimensions",
@@ -2483,7 +2474,7 @@
         "id": 371
     },
     {
-        "path": "/products/Masque-VNI-BUCCO-NASAL-TYPE-B.html",
+        "path": "/products/Masque-VNI---BUCCO-NASAL-TYPE-B.html",
         "images": "/assets/products/YF-02-01-N-20220607184015.jpg|/assets/products/YF-02-02-B-20220607153815.jpg",
         "image": "/assets/products/YF-02-01-N-20220607184015.jpg",
         "title": "Masque VNI   BUCCO-NASAL TYPE B",
@@ -2537,7 +2528,7 @@
         "id": 376
     },
     {
-        "path": "/products/CONCENTRATEURS-DOXYGENE-AVEC-NEBULISEUR-8-LMN-S\u00e9rie-LUNA.html",
+        "path": "/products/CONCENTRATEURS-DOXYGENE-AVEC-NEBULISEUR-8-LMN--S\u00e9rie-LUNA.html",
         "images": "/assets/products/7F-10W-20180914131119.jpg",
         "image": "/assets/products/7F-10W-20180914131119.jpg",
         "title": "CONCENTRATEURS D'OXYGENE AVEC NEBULISEUR - 8 L/MN  S\u00e9rie LUNA",
@@ -2654,7 +2645,7 @@
         "id": 386
     },
     {
-        "path": "/products/VENTILATEUR-\u00abCPAP\u00bb-SEMI-AUTOMATIQUE.html",
+        "path": "/products/VENTILATEUR-\u00abCPAP\u00bb--SEMI-AUTOMATIQUE.html",
         "images": "/assets/products/YH-360-20170214170606.jpg|/assets/products/2-20180522144608.jpg|/assets/products/8-20180522144911.jpg|/assets/products/HC-407U-B-20210531140315.jpg|/assets/products/YH-360-2-B-20210706174955.jpg",
         "image": "/assets/products/YH-360-20170214170606.jpg",
         "title": "VENTILATEUR \u00abCPAP\u00bb  SEMI AUTOMATIQUE",
@@ -2681,7 +2672,7 @@
         "id": 389
     },
     {
-        "path": "/products/NEBULISEUR-ELECTRIQUE-ULTRA-SONIC.html",
+        "path": "/products/NEBULISEUR-ELECTRIQUE---ULTRA-SONIC.html",
         "images": "/assets/products/N402-A1-20150721153301.jpg",
         "image": "/assets/products/N402-A1-20150721153301.jpg",
         "title": "NEBULISEUR ELECTRIQUE   ULTRA-SONIC",
@@ -2798,7 +2789,7 @@
         "id": 402
     },
     {
-        "path": "/products/PEAK-FLOW-A-CURSEUR-EXPIRATION-7-EMBOUTS.html",
+        "path": "/products/PEAK-FLOW-A-CURSEUR--EXPIRATION-7-EMBOUTS.html",
         "images": "/assets/products/SM60011-20150806154956.jpg",
         "image": "/assets/products/SM60011-20150806154956.jpg",
         "title": "PEAK FLOW A CURSEUR  EXPIRATION - 7 EMBOUTS",
@@ -2951,7 +2942,7 @@
         "id": 419
     },
     {
-        "path": "/products/POUSSETTE-ORTHOPEDIQUE-EN-EPOXY-IMC-ADULTE.html",
+        "path": "/products/POUSSETTE-ORTHOPEDIQUE-EN-EPOXY--IMC-ADULTE.html",
         "images": "/assets/products/958-LBHP-46-N-20220517113827.jpg|/assets/products/HY9650LGC-1-20170704161710.jpg",
         "image": "/assets/products/958-LBHP-46-N-20220517113827.jpg",
         "title": "POUSSETTE ORTHOPEDIQUE EN EPOXY  IMC - ADULTE",
@@ -3059,7 +3050,7 @@
         "id": 431
     },
     {
-        "path": "/products/FAUTEUIL-ROULANT-EXTRA-LARGE.html",
+        "path": "/products/FAUTEUIL-ROULANT--EXTRA-LARGE.html",
         "images": "/assets/products/210ABE-61-N-20220517110927.jpg",
         "image": "/assets/products/210ABE-61-N-20220517110927.jpg",
         "title": "FAUTEUIL ROULANT  'EXTRA-LARGE'",
@@ -3095,7 +3086,7 @@
         "id": 435
     },
     {
-        "path": "/products/FAUTEUIL-ROULANT-ADULTE-BASIC-CHROME.html",
+        "path": "/products/FAUTEUIL-ROULANT-ADULTE--BASIC-CHROME.html",
         "images": "/assets/products/H008-N-20201201165655.jpg",
         "image": "/assets/products/H008-N-20201201165655.jpg",
         "title": "FAUTEUIL ROULANT ADULTE  'BASIC CHROME'",
@@ -3176,7 +3167,7 @@
         "id": 444
     },
     {
-        "path": "/products/CANNES-ANGLAISES-EN-ALUMINIUM-1-REGLAGE-ADULTE-BLEU-PAIRE-voir-autres-COULEURS.html",
+        "path": "/products/CANNES-ANGLAISES-EN-ALUMINIUM-1-REGLAGE-ADULTE-BLEU-PAIRE--voir-autres-COULEURS.html",
         "images": "/assets/products/HY7612B-20150629152550.jpg",
         "image": "/assets/products/HY7612B-20150629152550.jpg",
         "title": "CANNES ANGLAISES EN ALUMINIUM 1 REGLAGE - ADULTE - BLEU - PAIRE  voir autres COULEURS",
@@ -3185,7 +3176,7 @@
         "id": 445
     },
     {
-        "path": "/products/BEQUILLES-EN-ALUMINIUM-PAIRE-ADULTE-voir-autres-tailles.html",
+        "path": "/products/BEQUILLES-EN-ALUMINIUM-PAIRE-ADULTE--voir-autres-tailles.html",
         "images": "/assets/products/CA801LM-20150706154549.jpg",
         "image": "/assets/products/CA801LM-20150706154549.jpg",
         "title": "BEQUILLES EN ALUMINIUM PAIRE - ADULTE  voir autres tailles",
@@ -3284,7 +3275,7 @@
         "id": 456
     },
     {
-        "path": "/products/CHAISE-ROULANTE-EPOXY-AVEC-BASSIN.html",
+        "path": "/products/CHAISE-ROULANTE-EPOXY--AVEC-BASSIN.html",
         "images": "/assets/products/CA-0611-20150722101411.jpg",
         "image": "/assets/products/CA-0611-20150722101411.jpg",
         "title": "CHAISE ROULANTE EPOXY  AVEC BASSIN",
@@ -3311,7 +3302,7 @@
         "id": 459
     },
     {
-        "path": "/products/REHAUSSE-WC-REHOTEC-AVEC-COUVERCLE-HAUTEUR-7CM.html",
+        "path": "/products/REHAUSSE-WC-REHOTEC-AVEC-COUVERCLE-HAUTEUR--7CM.html",
         "images": "/assets/products/9-7207C-20180906171510.jpg",
         "image": "/assets/products/9-7207C-20180906171510.jpg",
         "title": "REHAUSSE WC REHOTEC AVEC COUVERCLE - HAUTEUR: 7CM",
@@ -3338,7 +3329,7 @@
         "id": 462
     },
     {
-        "path": "/products/EMBOUT-DE-RECHANGE-RENFORCES-BEQUILLES-JAUNE-voir-autres-couleurs.html",
+        "path": "/products/EMBOUT-DE-RECHANGE-RENFORCES-BEQUILLES-JAUNE--voir-autres-couleurs.html",
         "images": "/assets/products/ECCJ-222-20150706172723.jpg",
         "image": "/assets/products/ECCJ-222-20150706172723.jpg",
         "title": "EMBOUT DE RECHANGE RENFORCES BEQUILLES - JAUNE  voir autres couleurs",
@@ -3347,7 +3338,7 @@
         "id": 463
     },
     {
-        "path": "/products/EMBOUTS-DE-RECHANGE-RENFORCES-CANNES-ANGLAISE-voir-autres-couleurs.html",
+        "path": "/products/EMBOUTS-DE-RECHANGE-RENFORCES-CANNES-ANGLAISE--voir-autres-couleurs.html",
         "images": "/assets/products/ECCG-18-20150706151524.jpg",
         "image": "/assets/products/ECCG-18-20150706151524.jpg",
         "title": "EMBOUTS DE RECHANGE RENFORCES - CANNES ANGLAISE  voir autres couleurs",
@@ -3572,7 +3563,7 @@
         "id": 488
     },
     {
-        "path": "/products/CEINTURE-SACRO-LOMBAX-HURRICANE-UNIVERSEL-voir-autes-tailles.html",
+        "path": "/products/CEINTURE-SACRO-LOMBAX-HURRICANE-UNIVERSEL--voir-autes-tailles.html",
         "images": "/assets/products/JC-7480-20150722175154.jpg",
         "image": "/assets/products/JC-7480-20150722175154.jpg",
         "title": "CEINTURE SACRO-LOMBAX \"HURRICANE\" UNIVERSEL  voir autes tailles",
@@ -3581,7 +3572,7 @@
         "id": 489
     },
     {
-        "path": "/products/BANDE-PREVENTIVE-LOMBAIRE-UNIVERSEL-voir-autes-tailles.html",
+        "path": "/products/BANDE-PREVENTIVE-LOMBAIRE-UNIVERSEL--voir-autes-tailles.html",
         "images": "/assets/products/JC-7718-20150722174639.jpg",
         "image": "/assets/products/JC-7718-20150722174639.jpg",
         "title": "BANDE PREVENTIVE LOMBAIRE UNIVERSEL  voir autes tailles",
@@ -3680,7 +3671,7 @@
         "id": 500
     },
     {
-        "path": "/products/SUSPENSOIR-AVEC-CEINTURE-LARGE-voir-autres-tailles-.html",
+        "path": "/products/SUSPENSOIR-AVEC-CEINTURE-LARGE--voir-autres-tailles-.html",
         "images": "/assets/products/big-20150723161800.jpg",
         "image": "/assets/products/big-20150723161800.jpg",
         "title": "SUSPENSOIR AVEC CEINTURE LARGE  voir autres tailles",
@@ -3716,7 +3707,7 @@
         "id": 504
     },
     {
-        "path": "/products/CEINTURE-ABDOMINALE-ELASTIQUE-BINDER.html",
+        "path": "/products/CEINTURE-ABDOMINALE-ELASTIQUE--BINDER.html",
         "images": "/assets/products/841102M-N-20200727184523.jpg",
         "image": "/assets/products/841102M-N-20200727184523.jpg",
         "title": "CEINTURE ABDOMINALE ELASTIQUE  BINDER",
@@ -3806,7 +3797,7 @@
         "id": 514
     },
     {
-        "path": "/products/ORTHESE-DE-POUCE-NEO-THUMB-HAPPINESS-voir-autes-tailles.html",
+        "path": "/products/ORTHESE-DE-POUCE-NEO-THUMB-HAPPINESS--voir-autes-tailles.html",
         "images": "/assets/products/JC-7580-20150722145711.jpg",
         "image": "/assets/products/JC-7580-20150722145711.jpg",
         "title": "ORTHESE DE POUCE \"NEO-THUMB HAPPINESS\"  voir autes tailles",
@@ -3833,7 +3824,7 @@
         "id": 517
     },
     {
-        "path": "/products/ORTHESE-POIGNET-4-SANG-VOIR-AUTRES-TAILLES.html",
+        "path": "/products/ORTHESE-POIGNET-4-SANG---VOIR-AUTRES-TAILLES.html",
         "images": "/assets/products/860802-01-N-20200727183847.jpg",
         "image": "/assets/products/860802-01-N-20200727183847.jpg",
         "title": "ORTHESE POIGNET - 4 SANG   VOIR AUTRES TAILLES",
@@ -4058,7 +4049,7 @@
         "id": 542
     },
     {
-        "path": "/products/Protecteur-Hallux-Valgus-Gel-en-chausson-small.html",
+        "path": "/products/Protecteur-Hallux-Valgus--Gel-en-chausson-small.html",
         "images": "/assets/products/20120130142309-586-20160811152537.jpg",
         "image": "/assets/products/20120130142309-586-20160811152537.jpg",
         "title": "Protecteur Hallux Valgus  Gel en chausson small",
@@ -4085,7 +4076,7 @@
         "id": 545
     },
     {
-        "path": "/products/SEMELLES-SILICONE-SMALL-voir-autres-tailles.html",
+        "path": "/products/SEMELLES-SILICONE-SMALL--voir-autres-tailles.html",
         "images": "/assets/products/71700A.jpg",
         "image": "/assets/products/71700A.jpg",
         "title": "SEMELLES SILICONE - SMALL  voir autres tailles",
@@ -4121,7 +4112,7 @@
         "id": 549
     },
     {
-        "path": "/products/VELPEAU-AVEC-ATTACHE-4M-X-5CM-voir-autres-dimensions.html",
+        "path": "/products/VELPEAU-AVEC-ATTACHE-4M-X-5CM--voir-autres-dimensions.html",
         "images": "/assets/products/50013-20150716144706.jpg|/assets/products/30-310S33-20150716145310.jpg",
         "image": "/assets/products/50013-20150716144706.jpg",
         "title": "VELPEAU AVEC ATTACHE 4M X 5CM  voir autres dimensions",
@@ -4166,7 +4157,7 @@
         "id": 554
     },
     {
-        "path": "/products/VENDAPRESS-COHEBAN-4.5MX10CM-voir-autres-dimensions-.html",
+        "path": "/products/VENDAPRESS-COHEBAN-4.5MX10CM--voir-autres-dimensions-.html",
         "images": "/assets/products/VENDAPRESS-COHEBAN-20181023170156.jpg|/assets/products/COHEBON-1--20160531180754.jpg",
         "image": "/assets/products/VENDAPRESS-COHEBAN-20181023170156.jpg",
         "title": "VENDAPRESS - COHEBAN4.5MX10CM  voir autres dimensions",
@@ -4193,7 +4184,7 @@
         "id": 557
     },
     {
-        "path": "/products/Compresses-Oculaires-CURE-AID-ADULTE-voir-autres-dimensions.html",
+        "path": "/products/Compresses-Oculaires-CURE-AID-ADULTE---voir-autres-dimensions.html",
         "images": "/assets/products/COMPRESSE-OCCULAIRE-ADULTE-20150907164439.psd|/assets/products/EPA5882-20150716162659-20150907164549.jpg",
         "image": "/assets/products/COMPRESSE-OCCULAIRE-ADULTE-20150907164439.psd",
         "title": "Compresses Oculaires CURE AID - ADULTE   voir autres dimensions",
@@ -4202,7 +4193,7 @@
         "id": 558
     },
     {
-        "path": "/products/NEOPLAST-5M-X-10CM-CHAIR-voir-autres-dimensions.html",
+        "path": "/products/NEOPLAST--5M-X-10CM-CHAIR--voir-autres-dimensions.html",
         "images": "/assets/products/NEOPLAST-CHAIR-20151110150025.jpg|/assets/products/NO5010C-20151021174504.jpg",
         "image": "/assets/products/NEOPLAST-CHAIR-20151110150025.jpg",
         "title": "NEOPLAST  5M X 10CM CHAIR  voir autres dimensions",
@@ -4409,7 +4400,7 @@
         "id": 581
     },
     {
-        "path": "/products/SONDE-URETERALE-DOUBLE-J-26CM-VOIR-AUTRES-DIMENSIONS.html",
+        "path": "/products/SONDE-URETERALE-DOUBLE-J-26CM--VOIR-AUTRES-DIMENSIONS.html",
         "images": "/assets/products/60020-8-N-20210903153537.jpg",
         "image": "/assets/products/60020-8-N-20210903153537.jpg",
         "title": "SONDE URETERALE - DOUBLE J - 26CM  VOIR AUTRES DIMENSIONS",
@@ -4427,7 +4418,7 @@
         "id": 583
     },
     {
-        "path": "/products/SONDE-DINTUBATION-ARMEE-PVC-ABALLONNET-CH-4-VOIR-autres-dimensions-.html",
+        "path": "/products/SONDE-DINTUBATION-ARMEE-PVC-ABALLONNET-CH-4--VOIR-autres-dimensions-.html",
         "images": "/assets/products/600-20150708121810.jpg",
         "image": "/assets/products/600-20150708121810.jpg",
         "title": "SONDE D'INTUBATION ARMEE PVC A/BALLONNET - CH 4  VOIR autres dimensions",
@@ -4490,7 +4481,7 @@
         "id": 590
     },
     {
-        "path": "/products/SYSTEME-DE-DRAINAGE-HEMOVAC-CH-10-600-ML-voir-autres-dimensions.html",
+        "path": "/products/SYSTEME-DE-DRAINAGE-HEMOVAC-CH-10-600-ML--voir-autres-dimensions.html",
         "images": "/assets/products/80013.jpg|/assets/products/SYSTEME-DE-DRAINAGE-B-20210907114541.jpg",
         "image": "/assets/products/80013.jpg",
         "title": "SYSTEME DE DRAINAGE \"HEMOVAC\" CH 10 - 600 ML  voir autres dimensions",
@@ -4499,7 +4490,7 @@
         "id": 591
     },
     {
-        "path": "/products/DRAIN-DE-REDON-PVC-CH-08-voir-autres-dimensions.html",
+        "path": "/products/DRAIN-DE-REDON-PVC-CH-08--voir-autres-dimensions.html",
         "images": "/assets/products/58275.jpg",
         "image": "/assets/products/58275.jpg",
         "title": "DRAIN DE REDON PVC CH 08  voir autres dimensions",
@@ -4508,7 +4499,7 @@
         "id": 592
     },
     {
-        "path": "/products/DRAIN-DE-KHEIR-LATEX-CH-10-voir-autres-dimensions.html",
+        "path": "/products/DRAIN-DE-KHEIR-LATEX-CH-10--voir-autres-dimensions.html",
         "images": "/assets/products/600135.jpg",
         "image": "/assets/products/600135.jpg",
         "title": "DRAIN DE KHEIR LATEX CH 10  voir autres dimensions",
@@ -4517,7 +4508,7 @@
         "id": 593
     },
     {
-        "path": "/products/DRAIN-THORACIQUE-ARME-JOLLY-CH-12-voir-autres-dimensions.html",
+        "path": "/products/DRAIN-THORACIQUE-ARME-JOLLY-CH-12--voir-autres-dimensions.html",
         "images": "/assets/products/22010.jpg",
         "image": "/assets/products/22010.jpg",
         "title": "DRAIN THORACIQUE ARME \"JOLLY\" CH 12  voir autres dimensions",
@@ -4526,7 +4517,7 @@
         "id": 594
     },
     {
-        "path": "/products/PROLONGATEUR-PVC-0.15-M-voir-autres-dimensions.html",
+        "path": "/products/PROLONGATEUR-PVC-0.15-M--voir-autres-dimensions.html",
         "images": "/assets/products/60009.jpg",
         "image": "/assets/products/60009.jpg",
         "title": "PROLONGATEUR PVC 0.15 M  voir autres dimensions",
@@ -4535,7 +4526,7 @@
         "id": 595
     },
     {
-        "path": "/products/PROLONGATEUR-PVC-+-ROBINET-A-3-VOIES-1M-voir-autres-dimensions.html",
+        "path": "/products/PROLONGATEUR-PVC-+-ROBINET-A-3-VOIES-1M--voir-autres-dimensions.html",
         "images": "/assets/products/3WS.jpg",
         "image": "/assets/products/3WS.jpg",
         "title": "PROLONGATEUR PVC + ROBINET A 3 VOIES 1M  voir autres dimensions",
@@ -4562,7 +4553,7 @@
         "id": 598
     },
     {
-        "path": "/products/SONDE-ASPIRATION-PVC-AVALVE-CH-6-VERT-CLAIR-voir-autres-dimensions-.html",
+        "path": "/products/SONDE-ASPIRATION-PVC-AVALVE-CH-6-VERT-CLAIR--voir-autres-dimensions-.html",
         "images": "/assets/products/SONDE-D-ASPIRATION-AVEC-VALVE-VERT-CLAIR-20151209143007.jpg",
         "image": "/assets/products/SONDE-D-ASPIRATION-AVEC-VALVE-VERT-CLAIR-20151209143007.jpg",
         "title": "SONDE ASPIRATION PVC A/VALVECH 6 VERT CLAIR  voir autres dimensions",
@@ -4580,7 +4571,7 @@
         "id": 600
     },
     {
-        "path": "/products/CURETTE-ASPIRATION-KARMAN-GYNECOLOGIQUE-DIAM-05-voir-autres-dimensions.html",
+        "path": "/products/CURETTE-ASPIRATION-KARMAN-GYNECOLOGIQUE-DIAM--05--voir-autres-dimensions.html",
         "images": "/assets/products/60020-5-jaune-clair-20160125162952.jpg",
         "image": "/assets/products/60020-5-jaune-clair-20160125162952.jpg",
         "title": "CURETTE ASPIRATION \"KARMAN\" GYNECOLOGIQUEDIAM: 05  voir autres dimensions",
@@ -4589,7 +4580,7 @@
         "id": 601
     },
     {
-        "path": "/products/SONDE-FOLEY-02-VOIES-LATEX-ADULTE-CH-12-VOIR-autres-dimensions-.html",
+        "path": "/products/SONDE-FOLEY-02-VOIES-LATEX-ADULTE-CH-12--VOIR-autres-dimensions-.html",
         "images": "/assets/products/6001..A.jpg",
         "image": "/assets/products/6001..A.jpg",
         "title": "SONDE FOLEY 02 VOIES LATEX ADULTE CH 12  VOIR autres dimensions",
@@ -4634,7 +4625,7 @@
         "id": 606
     },
     {
-        "path": "/products/SONDE-GASTRIQUE-PVC-CH-06-voir-autres-dimensions.html",
+        "path": "/products/SONDE-GASTRIQUE-PVC-CH-06--voir-autres-dimensions.html",
         "images": "/assets/products/SONDE-GASTRIQUE-VERT-CLAIR-20151210135858.jpg",
         "image": "/assets/products/SONDE-GASTRIQUE-VERT-CLAIR-20151210135858.jpg",
         "title": "SONDE GASTRIQUE PVC CH 06  voir autres dimensions",
@@ -4643,7 +4634,7 @@
         "id": 607
     },
     {
-        "path": "/products/SONDE-SALEM-DE-NUTRITION-PVC-CH-12-voir-autres-dimensions.html",
+        "path": "/products/SONDE-SALEM-DE-NUTRITION-PVC-CH-12--voir-autres-dimensions.html",
         "images": "/assets/products/DS615-bleu-20160125170551.jpg",
         "image": "/assets/products/DS615-bleu-20160125170551.jpg",
         "title": "SONDE SALEM DE NUTRITION PVC CH 12  voir autres dimensions",
@@ -4652,7 +4643,7 @@
         "id": 608
     },
     {
-        "path": "/products/CUPULE-DEXTRACTION-EN-SILICONE-50MM-voir-autres-dimensions.html",
+        "path": "/products/CUPULE-DEXTRACTION-EN-SILICONE-50MM--voir-autres-dimensions.html",
         "images": "/assets/products/7330-20150710143107.jpg",
         "image": "/assets/products/7330-20150710143107.jpg",
         "title": "CUPULE D'EXTRACTION EN SILICONE 50MM  voir autres dimensions",
@@ -4670,7 +4661,7 @@
         "id": 610
     },
     {
-        "path": "/products/AIGUILLE-RACHI-ANESTHESIE-G22-90-MM-voir-autres-dimensions.html",
+        "path": "/products/AIGUILLE-RACHI-ANESTHESIE-G22-90-MM--voir-autres-dimensions.html",
         "images": "/assets/products/AIGUILLE-RACHI-ANESTHESIE-Avec-Introducteur-20151103112809.jpg|/assets/products/6001A22-EM-B-20210518174411.jpg",
         "image": "/assets/products/AIGUILLE-RACHI-ANESTHESIE-Avec-Introducteur-20151103112809.jpg",
         "title": "AIGUILLE RACHI-ANESTHESIE G22 90 MM  voir autres dimensions",
@@ -4679,7 +4670,7 @@
         "id": 611
     },
     {
-        "path": "/products/AIGUILLE-SPINALE-PONCTION-LOMBAIRE-G18-90MM-voir-autres-dimensions.html",
+        "path": "/products/AIGUILLE-SPINALE-PONCTION-LOMBAIRE-G18-90MM--voir-autres-dimensions.html",
         "images": "/assets/products/AIGUILLE-SPINALE-PONCTION-LOMBAIRE-G18-ROSE-20151210175719.jpg|/assets/products/6001A22-EM-B-20210617164000.jpg",
         "image": "/assets/products/AIGUILLE-SPINALE-PONCTION-LOMBAIRE-G18-ROSE-20151210175719.jpg",
         "title": "AIGUILLE SPINALE PONCTION LOMBAIRE G18 90MM  voir autres dimensions",
@@ -4697,7 +4688,7 @@
         "id": 613
     },
     {
-        "path": "/products/SONDE-ASPIRATION-PVC-SVALVE-CH-6-VERT-CLAIR-voir-autres-dimensions.html",
+        "path": "/products/SONDE-ASPIRATION-PVC-SVALVE-CH-6-VERT-CLAIR--voir-autres-dimensions.html",
         "images": "/assets/products/SONDE-D-ASPIRATION-VERT-CLAIR-20151204165844.jpg",
         "image": "/assets/products/SONDE-D-ASPIRATION-VERT-CLAIR-20151204165844.jpg",
         "title": "SONDE ASPIRATION PVC S/VALVE CH 6 - VERT CLAIR  voir autres dimensions",
@@ -4733,7 +4724,7 @@
         "id": 617
     },
     {
-        "path": "/products/AMBU-REANIMATEUR-SILICONE-NOUVEAU-NE-voir-autres-tailles.html",
+        "path": "/products/AMBU-REANIMATEUR-SILICONE-NOUVEAU-NE--voir-autres-tailles.html",
         "images": "/assets/products/70-555-20150707173913.jpg",
         "image": "/assets/products/70-555-20150707173913.jpg",
         "title": "AMBU REANIMATEUR SILICONE NOUVEAU NE  voir autres tailles",
@@ -4769,7 +4760,7 @@
         "id": 621
     },
     {
-        "path": "/products/SERRE-TETE-POUR-MASQUE-ANESTHESIE-UNIV..html",
+        "path": "/products/SERRE-TETE--POUR-MASQUE-ANESTHESIE-UNIV..html",
         "images": "/assets/products/HBS-AMS-20181025134833.jpg",
         "image": "/assets/products/HBS-AMS-20181025134833.jpg",
         "title": "SERRE TETE  POUR MASQUE ANESTHESIE UNIV.",
@@ -4895,7 +4886,7 @@
         "id": 635
     },
     {
-        "path": "/products/GANT-LATEX-STERILE-TAILLE-6.5-voir-autres-tailles.html",
+        "path": "/products/GANT-LATEX-STERILE-TAILLE---6.5--voir-autres-tailles.html",
         "images": "/assets/products/GANT-LATEX-STERILE-ELITE-20181102095301.jpg",
         "image": "/assets/products/GANT-LATEX-STERILE-ELITE-20181102095301.jpg",
         "title": "GANT LATEX STERILE TAILLE : 6.5  voir autres tailles",
@@ -4904,7 +4895,7 @@
         "id": 636
     },
     {
-        "path": "/products/GANT-DEXAMEN-LATEX-POUDRE-XSMALL-voir-autres-tailles.html",
+        "path": "/products/GANT-DEXAMEN-LATEX-POUDRE-XSMALL--voir-autres-tailles.html",
         "images": "/assets/products/FNT-00-20181025142417.jpg",
         "image": "/assets/products/FNT-00-20181025142417.jpg",
         "title": "GANT D'EXAMEN - LATEX POUDRE XSMALL  voir autres tailles",
@@ -4913,7 +4904,7 @@
         "id": 637
     },
     {
-        "path": "/products/GANT-DEXAMEN-LATEX-NON-POUDRE-SMALL-voir-autres-tailles.html",
+        "path": "/products/GANT-DEXAMEN-LATEX-NON-POUDRE-SMALL--voir-autres-tailles.html",
         "images": "/assets/products/NON-POUDREE-20150720104658.jpg",
         "image": "/assets/products/NON-POUDREE-20150720104658.jpg",
         "title": "GANT D'EXAMEN - LATEX NON POUDRE - SMALL  voir autres tailles",
@@ -4922,7 +4913,7 @@
         "id": 638
     },
     {
-        "path": "/products/GANT-DEXAMEN-VINYLE-SMALL-voir-autres-tailles.html",
+        "path": "/products/GANT-DEXAMEN-VINYLE-SMALL--voir-autres-tailles.html",
         "images": "/assets/products/GANT-VINYL-20160613152700.jpg",
         "image": "/assets/products/GANT-VINYL-20160613152700.jpg",
         "title": "GANT D'EXAMEN VINYLE SMALL  voir autres tailles",
@@ -4958,7 +4949,7 @@
         "id": 642
     },
     {
-        "path": "/products/GANT-DEXAMEN-NITRILE-NON-POUDRE-SMALL-voir-autres-tailles.html",
+        "path": "/products/GANT-DEXAMEN-NITRILE-NON-POUDRE-SMALL--voir-autres-tailles.html",
         "images": "/assets/products/NITRILLE-20150720104849.jpg|/assets/products/GANT-NITRILE-20150727162201.jpg",
         "image": "/assets/products/NITRILLE-20150720104849.jpg",
         "title": "GANT D'EXAMEN - NITRILE NON POUDRE - SMALL  voir autres tailles",
@@ -4967,7 +4958,7 @@
         "id": 643
     },
     {
-        "path": "/products/GANT-DEXAMEN-NITRILE-NON-POUDRE-VOIR-AUTRES-TAILLES.html",
+        "path": "/products/GANT-DEXAMEN-NITRILE-NON-POUDRE---VOIR-AUTRES-TAILLES.html",
         "images": "/assets/products/Gant-Noir-N-20200205093059.jpg",
         "image": "/assets/products/Gant-Noir-N-20200205093059.jpg",
         "title": "GANT D'EXAMEN - NITRILE NON POUDRE   VOIR AUTRES TAILLES",
@@ -4976,7 +4967,7 @@
         "id": 644
     },
     {
-        "path": "/products/GANT-LATEX-STERILE-NON-POUDRE-TAILLE-6.5-voir-autres-tailles.html",
+        "path": "/products/GANT-LATEX-STERILE-NON-POUDRE-TAILLE---6.5--voir-autres-tailles.html",
         "images": "/assets/products/GANT-LATEX-STERILE-ELITE-NP-N-20210120145433.jpg",
         "image": "/assets/products/GANT-LATEX-STERILE-ELITE-NP-N-20210120145433.jpg",
         "title": "GANT LATEX STERILE NON POUDRE TAILLE : 6.5  voir autres tailles",
@@ -5237,7 +5228,7 @@
         "id": 673
     },
     {
-        "path": "/products/BOUILLOTTE-EN-CAOUTCHOUC-SANS-HOUSSE-VOIR-autres-modeles-.html",
+        "path": "/products/BOUILLOTTE-EN-CAOUTCHOUC-SANS-HOUSSE--VOIR-autres-modeles-.html",
         "images": "/assets/products/70-501C-20150715142451.jpg",
         "image": "/assets/products/70-501C-20150715142451.jpg",
         "title": "BOUILLOTTE EN CAOUTCHOUC SANS HOUSSE  VOIR autres modeles",
@@ -5336,7 +5327,7 @@
         "id": 684
     },
     {
-        "path": "/products/SABOT-PROFESSIONNEL-ECO-CUIR-38-VOIR-autres-pointures.html",
+        "path": "/products/SABOT-PROFESSIONNEL-ECO-CUIR-38--VOIR-autres-pointures.html",
         "images": "/assets/products/2414W-20181126172230.jpg",
         "image": "/assets/products/2414W-20181126172230.jpg",
         "title": "SABOT PROFESSIONNEL ECO-CUIR 38  VOIR autres pointures",
@@ -5408,7 +5399,7 @@
         "id": 692
     },
     {
-        "path": "/products/BASSIN-DE-LIT-SANS-COUVERCLE.html",
+        "path": "/products/BASSIN-DE-LIT--SANS-COUVERCLE.html",
         "images": "/assets/products/LNDS-03-20150721142112.jpg",
         "image": "/assets/products/LNDS-03-20150721142112.jpg",
         "title": "BASSIN DE LIT  SANS COUVERCLE",
@@ -5480,7 +5471,7 @@
         "id": 700
     },
     {
-        "path": "/products/DISTRIBUTEURS-BOITES-A-GANTS-EN-INOX-FIXATION-MURALE-SINGLE.html",
+        "path": "/products/DISTRIBUTEURS-BOITES-A-GANTS-EN-INOX--FIXATION-MURALE-SINGLE.html",
         "images": "/assets/products/UPL-351-20181031130609.jpg",
         "image": "/assets/products/UPL-351-20181031130609.jpg",
         "title": "DISTRIBUTEURS BOITES A GANTS EN INOX  FIXATION MURALE SINGLE",
@@ -5498,7 +5489,7 @@
         "id": 702
     },
     {
-        "path": "/products/PLATEAUX-A-INSTRUMENTS-EN-INOX-210X160X25-voir-autres-dimensions-.html",
+        "path": "/products/PLATEAUX-A-INSTRUMENTS-EN-INOX-210X160X25--voir-autres-dimensions-.html",
         "images": "/assets/products/UPL-032-20150716111808.jpg",
         "image": "/assets/products/UPL-032-20150716111808.jpg",
         "title": "PLATEAUX A INSTRUMENTS EN INOX210X160X25  voir autres dimensions",
@@ -5507,7 +5498,7 @@
         "id": 703
     },
     {
-        "path": "/products/BOITES-A-INSTRUMENTS-INOX-180X80X40-MM-voir-autres-dimensions-.html",
+        "path": "/products/BOITES-A-INSTRUMENTS-INOX-180X80X40-MM--voir-autres-dimensions-.html",
         "images": "/assets/products/UPL-2.jpg",
         "image": "/assets/products/UPL-2.jpg",
         "title": "BOITES A INSTRUMENTS INOX 180X80X40 MM  voir autres dimensions",
@@ -5516,7 +5507,7 @@
         "id": 704
     },
     {
-        "path": "/products/TAMBOURS-CYLINDRIQUES-EN-INOX-150X120-voir-autres-dimensions-.html",
+        "path": "/products/TAMBOURS-CYLINDRIQUES-EN-INOX-150X120--voir-autres-dimensions-.html",
         "images": "/assets/products/UPL3-20150716113517.jpg",
         "image": "/assets/products/UPL3-20150716113517.jpg",
         "title": "TAMBOURS CYLINDRIQUES EN INOX 150X120  voir autres dimensions",
@@ -5525,7 +5516,7 @@
         "id": 705
     },
     {
-        "path": "/products/CUPULES-EN-INOX-6-CM-70-ML-voir-autres-dimensions-.html",
+        "path": "/products/CUPULES-EN-INOX-6-CM-70-ML--voir-autres-dimensions-.html",
         "images": "/assets/products/UPL-09-20150716115609.jpg",
         "image": "/assets/products/UPL-09-20150716115609.jpg",
         "title": "CUPULES EN INOX 6 CM - 70 ML  voir autres dimensions",
@@ -5534,7 +5525,7 @@
         "id": 706
     },
     {
-        "path": "/products/HARICOTS-EN-INOX-20-CM-voir-autres-dimensions-.html",
+        "path": "/products/HARICOTS-EN-INOX-20-CM--voir-autres-dimensions-.html",
         "images": "/assets/products/303-02-20150716122433.jpg",
         "image": "/assets/products/303-02-20150716122433.jpg",
         "title": "HARICOTS EN INOX 20 CM  voir autres dimensions",
@@ -5561,7 +5552,7 @@
         "id": 709
     },
     {
-        "path": "/products/PORTE-PINCE-EN-INOX-voir-autres-dimensions-.html",
+        "path": "/products/PORTE-PINCE-EN-INOX--voir-autres-dimensions-.html",
         "images": "/assets/products/30321-20150716115152.jpg",
         "image": "/assets/products/30321-20150716115152.jpg",
         "title": "PORTE PINCE EN INOX  voir autres dimensions",
@@ -5579,7 +5570,7 @@
         "id": 711
     },
     {
-        "path": "/products/MANCHE-DE-BISTOURI-EN-INOX-N\u00b0-3-voir-autres-dimensions-.html",
+        "path": "/products/MANCHE-DE-BISTOURI-EN-INOX-N\u00b0-3--voir-autres-dimensions-.html",
         "images": "/assets/products/50140-20150716120449.jpg",
         "image": "/assets/products/50140-20150716120449.jpg",
         "title": "MANCHE DE BISTOURI EN INOX N\u00b0 3  voir autres dimensions",

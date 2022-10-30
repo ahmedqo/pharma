@@ -13,7 +13,7 @@ if ($handle = opendir('./products/')) {
             $brand = explode(".", basename($page->find("div.flex.flex-col img.block.max-60", 0)->src))[0];
             if (strlen($brand) == 0) $brand = "BRAND-LESS";
             array_push($array, [
-                "path" => "/products/" . clean($entry),
+                "path" => "/products/" . $entry,
                 "images" => implode("|", $images),
                 "image" => $page->find("#preview", 0)->src,
                 "title" => trim($page->find("h1.text-4xl", 0)->plaintext),
@@ -21,6 +21,11 @@ if ($handle = opendir('./products/')) {
                 "brand" => $brand,
                 "id" => (int)explode("-", explode(".", $page->find("title", 0)->attr["data-translate-id"])[1])[1]
             ]);
+            // if ($brand == "BRAND-LESS") {
+            //     $page = str_replace('<img src="/assets/brands/.png" class="block max-60" />', '<img src="/assets/brands/BRAND-LESS.png" class="block max-60" />', $page);
+            // }
+            // $page = str_replace(['<div class=\"flex gap-2 items-center\">', '<span>Colors:</span>', '<span class=\"w-6 h-6\" style=\"background: black;\"></span>', '<span class=\"w-6 h-6\" style=\"background: gray;\"></span>', '<span class=\"w-6 h-6\" style=\"background: pink;\"></span>', '<span class=\"w-6 h-6\" style=\"background: #d9d9cd;\"></span>'], '', $page);
+            // file_put_contents("./products/" . $entry, $page);
         }
     }
     closedir($handle);
