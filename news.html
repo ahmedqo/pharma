@@ -45,7 +45,10 @@
     <span id="footer"></span>
     <script defer>
         Starter.add(
-            () => populate.Product(PRODUCTS.sample(26)),
+            async() => {
+                await getProd();
+                populate.Product(PRODUCTS.sample(26));
+            },
             () => {
                 Element.Aside();
                 Element.Header(4);
