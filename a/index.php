@@ -1,14 +1,14 @@
 <?php
 session_start();
 if (isset($_SESSION["logged_in"])) {
-    header("location: /a/create.php");
+    header("location: /a/list.php");
     die();
 }
 
 if (isset($_POST['login'])) {
     if ($_POST['email'] === "admin@promedplanet.com" && $_POST['password'] === "Password12345") {
         $_SESSION["logged_in"] = true;
-        header("location: /a/create.php");
+        header("location: /a/list.php");
         die();
     }
 }

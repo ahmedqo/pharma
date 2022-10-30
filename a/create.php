@@ -69,11 +69,13 @@ function translate($id, $fr, $en, $it, $ar)
     file_put_contents("../translate/data-ar.json", json_encode($ar), true);
 }
 
-function product($id, $img, $products)
+function product($id, $img, $images, $products)
 {
+    array_unshift($images, $img);
     array_push($products, [
         "path" => "/products/" . clean($_POST["title_fr"]) . ".html",
         "image" => $img,
+        "images" => implode("|", $images),
         "title" => $_POST["title_fr"],
         "category" => $_POST["category"],
         "brand" => $_POST["brand"],
@@ -128,7 +130,7 @@ if (isset($_POST['send'])) {
     $image = upload($_FILES['primary']);
     $images = uploads($_FILES['extra']);
     translate($id, $fr, $en, $it, $ar);
-    product($id, $image, $products);
+    product($id, $image, $images, $products);
     $myfile = fopen("../products/" . clean($_POST['title_fr']) . ".html", "w+") or die("Unable to open file!");
     $IMG = '<button onclick="preview(this, `#preview`)" class="w-24 h-24 border border-gray-200 shadow-sm rounded-lg bg-white p-2 flex items-center justify-center cursor-pointer">
         <img src="' . $image . '" class="block max-w-full max-h-full pointer-events-none" />
@@ -236,7 +238,7 @@ if (isset($_POST['send'])) {
     ';
     fwrite($myfile, $code);
     fclose($myfile);
-    header("location: " . "/products/" . clean($_POST['title_fr']) . ".html");
+    header("location: /a/list.php");
 }
 ?>
 
@@ -254,13 +256,29 @@ if (isset($_POST['send'])) {
 </head>
 
 <body class="text-gray-800 py-4">
-    <header class="w-full gap-4 flex container mx-auto px-4 items-center justify-between">
+    <header class="w-full flex-col lg:flex-row gap-4 flex container mx-auto px-4 items-center justify-between">
         <a href="/index.html" class="w-32">
             <img src="/assets/logo.png" alt="logo" class="w-full block" />
         </a>
-        <a href="<?= $_SERVER['PHP_SELF']; ?>?logout=true" class="w-max flex items-center gap-2 text-sm font-semibold text-white bg-prime rounded-md px-4 py-2 bg-prime bg-grade">
-            <span>DECONNEXION</span>
-        </a>
+        <nav class="w-full lg:w-max">
+            <ul class="flex flex-col w-full lg:flex-row gap-4 items-center">
+                <li>
+                    <a href="/a/list.php" class="w-max flex items-center gap-2 text-sm font-semibold hover:text-prime">
+                        <span>Liste</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="/a/create.php" class="w-max flex items-center gap-2 text-sm font-semibold hover:text-prime">
+                        <span>Creer</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="<?= $_SERVER['PHP_SELF']; ?>?logout=true" class="w-max flex items-center gap-2 text-sm font-semibold text-white bg-prime rounded-md px-4 py-2 bg-prime bg-grade">
+                        <span>Deconnexion</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
     </header>
     <main class="overflow-x-hidden">
         <form class="flex flex-col gap-4 container mx-auto px-4 items-end mt-10" method="post" action="<?= $_SERVER['PHP_SELF']; ?>" enctype="multipart/form-data">
