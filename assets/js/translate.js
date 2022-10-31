@@ -88,3 +88,21 @@ window.addEventListener("DOMContentLoaded", () => {
         language: LANG
     });
 });
+
+// Create an observer instance linked to the callback function
+const observer = new MutationObserver((mutationList, observer) => {
+    const LANG = localStorage.getItem("translate-language-id") || "fr";
+    document.querySelectorAll("[data-lang]").forEach((btn) => {
+        if (btn.dataset.lang === LANG)
+            document.querySelector("#lang-btn").setAttribute("data-translate-id", btn.dataset.translateId)
+    });
+    Translate("/translate/data", {
+        language: LANG
+    });
+});
+
+// Start observing the target node for configured mutations
+observer.observe(document.body, {
+    childList: true,
+    subtree: true
+});
